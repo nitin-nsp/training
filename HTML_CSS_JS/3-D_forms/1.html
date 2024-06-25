@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My App</title>
+    <link rel="stylesheet" type="text/css" href="1.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="cover_bcg"></div>
+      <div class="form_box">
+        <h1>Register form</h1>
+        <form onsubmit="submitHandler(event)">
+          <fieldset>
+            <legend>Apply here:</legend>
+            <fieldset>
+              <legend>Personal Info:</legend>
+              <ul>
+                <li class="input_align">
+                  <label for="name">Name: </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name..."
+                  />
+                </li>
+                <li class="input_align">
+                  <label for="age"> Age:</label>
+                  <input type="number" id="age" name="age" min="0" max="100" />
+                </li>
+                <li class="input_align">
+                  <label for="gender">Gender</label>
+                  <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                  </select>
+                </li>
+                <li class="input_align">
+                  <label for="birthday">BirthDay</label>
+                  <input type="datetime-local" id="birthday" name="birthday" />
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Contact Info:</legend>
+              <ul>
+                <li class="input_align">
+                  <label for="email"> Email:</label>
+                  <input type="email" id="email" name="email" />
+                  <div class="error-message"></div>
+                </li>
+                <li class="input_align">
+                  <label for="phone"> Phone:</label>
+                  <input type="tel" id="phone" name="phone" />
+                  <div class="error-message"></div>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Tech:</legend>
+              <ul>
+                <li class="skills">
+                  <label for="skills"> Skills:</label>
+                  <div>
+                    <ul class="skill_list">
+                      <li>
+                        <input
+                          type="checkbox"
+                          id="C++"
+                          name="skill"
+                          value="C++"
+                        />
+                        <label for="C++">C++</label>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          id="Javascript"
+                          name="skill"
+                          value="Javascript"
+                        />
+                        <label for="Javascript">Javascript</label>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          id="Java"
+                          name="skill"
+                          value="Java"
+                        />
+                        <label for="Java">Java</label>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          id="MERN"
+                          name="skill"
+                          value="MERN"
+                        />
+                        <label for="MERN">MERN</label>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          id="Others"
+                          name="skill"
+                          value="Others"
+                        />
+                        <label for="Others">Others</label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+               
+                <li>
+                  <label for="uploadResume"> Upload Resume:</label>
+                  <input
+                    type="file"
+                    id="uploadResume"
+                    name="uploadResume"
+                    required
+                  />
+                </li>
+                <li>
+                  <label for="password"> PassWord*:</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                  <div class="error-message"></div>
+                </li>
+                <li>
+                  <label>Nationality*</label>
+                  <input
+                    type="radio"
+                    name="nationality"
+                    value="Indian"
+                    checked
+                  />
+                  Indian
+                  <input type="radio" name="nationality" value="Non-Indian" />
+                  Non-Indian
+                </li>
+              </ul>
+            </fieldset>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="1.js"></script>
+  </body>
+</html>

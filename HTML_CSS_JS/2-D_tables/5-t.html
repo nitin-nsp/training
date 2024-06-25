@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: solid 1px white;
+        border-collapse: collapse;
+        padding: 20px;
+        text-align: center;
+      }
+      th{
+        width: 70px;
+        height: 30px;
+      }
+      td{
+        min-width: 100px;
+        min-height: 500px;
+        text-align: center;
+      }
+      td:hover {
+        background-color: rgb(46, 43, 112);
+      }
+      *{
+        font-weight: bolder;
+      }
+     
+    </style>
+  </head>
+
+  <body style="background-color: rgb(2, 0, 36); color: white">
+  
+
+    <h1>Table 5:</h1>
+    <table style="height: 800px;width: 800px;">
+      <tr>
+        <th>A</th>
+        <th colspan="2">B</th>
+        <th colspan="2">C</th>
+      </tr>
+
+      <tr>
+        <td style="height: 50px;"></td>
+        <td rowspan="3" colspan="2"></td>
+        <td rowspan="5" colspan="2"></td>
+      </tr>
+
+      <tr>
+        <th>D</th>
+      </tr>
+      
+      <tr>
+        <td rowspan="5"></td>
+      </tr>
+      <tr>
+        <th colspan="2">E</th>
+      </tr>
+      <tr>
+        <td colspan="2" style="height: 70px;"></td>
+      </tr>
+      <tr>
+        <th> F</th>
+        <th colspan="2">G</th>
+        <th>H</th>
+      </tr>
+      <tr style="height: 60px;">
+        <td></td>
+        <td colspan="2"></td>
+        <td> </td>
+      </tr>
+    </table>
+  </body>
+</html>

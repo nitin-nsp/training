@@ -1,0 +1,84 @@
+.gallery {
+    height: 100vh;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery .gallery_container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-flow: column dense;
+    /* width: 95vw;
+    height: 95vh; */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    margin: 5rem;
+}
+
+.gallery .gallery_container .box {
+    /* Adjust styling for each box type */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+
+}
+
+.gallery .gallery_container .box:hover {}
+
+.gallery .gallery_container .box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
+
+}
+
+.gallery .gallery_container .vertical {
+    grid-row: span 2;
+    background-color: tomato;
+}
+
+.gallery .gallery_container .horizontal {
+    grid-column: span 2;
+    background-color: lightgreen;
+}
+
+.gallery .gallery_container .square {
+    background-color: lightblue;
+}
+
+/* Example of specific styling for each box */
+#v1 {
+    grid-column-start: 1;
+    grid-row: 1 / span 2;
+}
+
+#v2 {
+    grid-column-start: 3;
+    grid-row: 1 / span 2;
+}
+
+#v3 {
+    grid-column-start: 6;
+    grid-row: 1 / span 2;
+}
+
+#v4 {
+    grid-column-start: 2;
+    grid-row: 2 / span 2;
+}
+
+#v5 {
+    grid-column-start: 5;
+    grid-row: 2 / span 2;
+}

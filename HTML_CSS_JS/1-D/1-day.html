@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title> My App</title>
+  </head>
+
+  <body style="background-color: rgb(2, 0, 36); color: white">
+    <!-- <center style="width: 80vw"> -->
+    <center>
+      <h1>
+        Welcome <sup><strong>¯\(ツ)/¯</strong></sup>
+      </h1>
+    </center>
+    <form style=" flex; justify-content: center; align-items: center; height:80vh; width: 80vw;">
+      <h2>Forms-></h2>
+      <fieldset>
+        <legend>Apply here:</legend>
+        <fieldset>
+          <legend>Personal Info:</legend>
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name" />
+          <br />
+          <label for="age"> Age:</label>
+          <input type="number" id="age" name="age" min="0" max="100" />
+          <br />
+          <label for="gender"> gender</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          <br />
+          <label for="birthday"> BirthDay</label>
+          <input type="datetime-local" />
+        </fieldset>
+        <fieldset>
+          <legend>Contact Info:</legend>
+          <label for="email"> Email:</label>
+          <input type="email" id="email" name="email" />
+          <br />
+          <label for="phone"> Phone:</label>
+          <input type="tel" id="phone" name="phone" />
+        </fieldset>
+        <fieldset>
+          <legend>Tech:</legend>
+          <label for="skills"> Skills:</label>
+          <input type="checkbox" id="C++" name="skill" value="C++" />
+          <label for="C++">C++</label>
+
+          <input
+            type="checkbox"
+            id="Javascript"
+            name="skill"
+            value="Javascript"
+          />
+          <label for="Javascript">Javascript</label>
+
+          <input type="checkbox" id="Java" name="skill" value="Java" />
+          <label for="Java">Java</label>
+          <input type="checkbox" id="MERN" name="skill" value="MERN" />
+          <label for="MERN">MERN</label>
+
+          <input type="checkbox" id="+Others" name="skill" value="+Others" />
+          <label for="+Others">+Others</label>
+          <br />
+          <label for="uploadResume"> Upload Resume:</label>
+          <input type="file" />
+        </fieldset>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <h1>Iframe on <a href="https://www.habilelabs.io/" style="color: bisque;"> hrhabilelabs.io</a>:</h1>
+    <center>
+      <iframe
+        src="https://www.habilelabs.io/"
+        title="Habiles Lab site"
+        style="height: 85vh; width: 85vw"
+      ></iframe>
+    </center>
+
+    <h1>use of Map in Img:</h1>
+    <div style="height: 90px; width: 80%">
+      <center>
+        <img src="img1.png" usemap="#image-map" />
+
+        <map name="image-map">
+          <area
+            target="_blank"
+            alt="CTO Habiles Labs"
+            title="CTO Habiles Labs"
+            href="https://in.linkedin.com/in/shankarmorwal"
+            coords="381,935,365,869,352,781,295,620,262,498,299,377,370,330,347,219,442,183,480,255,514,313,568,329,599,366,624,487,654,601,653,651,638,739,635,820,647,885,647,926"
+            shape="poly"
+          />
+          <area
+            target="_blank"
+            alt="CEO habiles Labs"
+            title="CEO habiles Labs"
+            href="https://in.linkedin.com/in/ankitdhir"
+            coords="734,935,759,830,773,742,709,751,671,720,688,653,710,610,767,465,848,438,845,358,850,251,1020,259,999,399,1041,446,1142,483,1194,796,1176,928"
+            shape="poly"
+          />
+        </map>
+      </center>
+    </div>
+  </body>
+  <footer></footer>
+</html>

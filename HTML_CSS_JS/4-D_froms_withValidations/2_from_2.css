@@ -1,0 +1,150 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green-100: #ccff90;
+    --green-200: #b2ff59;
+    --green-300: #76ff03;
+    --green-400: #64dd17;
+}
+
+.container {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 10rem 0;
+    /* background-color: #f0f0f0; */
+}
+
+
+
+.form_box {
+
+    border-radius: 15px;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 600px;
+    /* overflow: hidden; */
+}
+
+.container .form_box .cover_bcg {
+    background-color: var(--green-400);
+    height: 15px;
+    border-radius: 15px 15px 0 0;
+}
+
+.container .form_box form {
+    padding: 30px;
+}
+
+.container .form_box form h3 {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .form_box form .inputform {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container .form_box form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container .form_box form input {
+    height: 50px;
+    padding: 0 50px 0 15px;
+
+    font-size: 1.3rem;
+    background: #eee;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #333;
+    box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+.container .form_box form input:focus {
+    outline: solid 3px var(--green-400);
+}
+
+.input-with-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-with-icon>input {
+    flex: 1;
+}
+
+.input-with-icon>i {
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    color: #999;
+
+}
+
+.container .form_box form .input-with-icon i:hover {
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: var(--green-400);
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: var(--green-200);
+}
+
+fieldset {
+    border-radius: 15px;
+    /* background-color: rgb(236, 225, 225); */
+    display: flex;
+    flex-direction: column;
+}
+.error-message {
+    margin-top: 5px;
+  }

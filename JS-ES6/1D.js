@@ -130,7 +130,9 @@ const fetchParallel = async () => {
         if (!resp2.ok) {
             throw new Error('failed')
         }
-        return { resp1, resp2 };
+        const result1=await resp1.json()
+        const result2=await resp2.json()
+        return { result1, result2 };
     } catch (err) {
         throw err;
     }

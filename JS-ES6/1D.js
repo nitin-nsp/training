@@ -41,29 +41,31 @@ promiseEx(3).then((data) => {
 // 4
 const fetchData = async (url) => {
     return new Promise((resolve, reject) => {
-            fetch(url).then(res => {
-                if (!res.ok) {
-                    resolve(res)
+        fetch(url)
+            .then(async (res) => {
+                if (res.ok) {
+                    const result = await res.json();
+                    resolve(result);
                 }
-            }).catch(err => {
-                reject(err);
             })
-        }
-    )
-}
-fetchData('url').then(res => {
+            .catch(err => {
+                reject(err);
+            });
+    });
+};
+fetchData('https://jsonplaceholder.typicode.com/todos').then(res => {
     console.log(res)
 }).catch(err => {
     print(err)
 })
 
 // 5
-const fetchData2=async(url)=>{
-    try{
-        const res=await fetch(url);
-        return res.json()
+const fetchData2 = async (url) => {
+    try {
+        const res = await fetch(url);
+        return await res.json()
 
-    }catch(err){
+    } catch (err) {
         throw new Error(err.message)
     }
 }
@@ -71,71 +73,71 @@ const fetchData2=async(url)=>{
 
 // 6
 
-const fetchAndPerformSeq=async()=>{
+const fetchAndPerformSeq = async () => {
     try {
-         // t1
-    const url1='url1';
-    const resp=await fetch(url1);
-     if(!resp.ok){
-        throw new Error('Failed')
-     }
-     const d1= resp.json();
-       
-    //  t2
-    const processData=d1.map(item=>{
-        return {
-            postTitle:item.title,
-            postDesc:item.text
-
+        // t1
+        const url1 = 'https://jsonplaceholder.typicode.com/todos/1';
+        const resp = await fetch(url1);
+        if (!resp.ok) {
+            throw new Error('Failed')
         }
-    })
+        const d1 = resp.json();
 
-    // t3
-    const url2="url2";
-    const resp2=await fetch(url2,{
-        method:'POST'
-    });
-    if(!resp2.ok){
-        throw new Error('Failed')
-    }
+        //  t2
+        const processData = d1.map(item => {
+            return {
+                todoTitle: item.title,
+                todoStatus: item.completed
 
-    const data= resp2.json();
+            }
+        })
+
+        // t3
+        const url2 = "url2";
+        const resp2 = await fetch(url2, {
+            method: 'POST'
+        });
+        if (!resp2.ok) {
+            throw new Error('Failed')
+        }
+
+        const data = resp2.json();
 
     } catch (error) {
         throw error
     }
 }
-fetchAndPerformSeq().then(res=>{
+fetchAndPerformSeq().then(res => {
     console.log('data =>', res)
-}).catch(err=>{
+}).catch(err => {
     console.log(err)
 })
 
 
 // 7
 
-const fetchParallel=async()=>{
+const fetchParallel = async () => {
 
-    try{
-        const p1=fetch('ur1');
-        const p2=fetch('url2')
-        const resp1=await p1;
-        const resp2=await p2;
+    try {
+        const p1 = fetch('https://jsonplaceholder.typicode.com/todos/1');
+        const p2 = fetch('https://jsonplaceholder.typicode.com/todos/2')
+        const resp1 = await p1;
+        const resp2 = await p2;
 
-        if(!resp1.ok){
+        if (!resp1.ok) {
             throw new Error('failed')
         }
-        if(!resp2.ok){
+        if (!resp2.ok) {
             throw new Error('failed')
         }
-        return {resp1,resp2};
-    }catch(err){
+        return { resp1, resp2 };
+    } catch (err) {
         throw err;
     }
 }
-fetchParallel().then(res=>{
+fetchParallel().then(res => {
     console.log(res)
-}).catch(err=>{
+}).catch(err => {
     console.log(err)
 })
 

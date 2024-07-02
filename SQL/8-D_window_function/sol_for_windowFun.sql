@@ -1,13 +1,30 @@
 --1
-select 
-d.department_name,
-rank(){(over
-avg(e.salary) over (partition by d.department_id) as avg_salary,
+--select 
+--d.department_name,
+--rank(){(over
+--avg(e.salary) over (partition by d.department_id) as avg_salary,
+--
+--from
+--employees e
+--join
+--departments d on e.department_id = d.department_id;
 
+select 
+department_name,
+dense_rank() over (order by avgsalary) as rank
 from
+(select 
+d.department_name,
+avg(e.salary) as avgsalary
+from 
 employees e
 join
-departments d on e.department_id = d.department_id;
+departments d on e.department_id = d.department_id
+group by 
+d.department_name
+) tmp;
+
+
 
 --2
 SELECT 
@@ -22,13 +39,13 @@ from
 employees e;
 --3 
 
-select
-e.first_name,
-e.salary,
-e.employee_id,
-Lead(e.salary) over(order by e.hire_date) -e.salary as salary_diff
-from 
-employees e;
+SELECT
+E.FIRST_NAME,
+E.SALARY,
+E.EMPLOYEE_ID,
+LEAD(E.SALARY) OVER(ORDER BY E.HIRE_DATE) -E.SALARY AS SALARY_DIFF
+FROM 
+EMPLOYEES E;
 
 --4
 
@@ -48,6 +65,13 @@ employees e
 ) emp
 order by 
 emp.salary_diff desc;
+
+--5
+select 
+*
+from
+yearlyIncrement yi left join 
+employees e  on yi.employee_id=e.employee_id;
     
     
 

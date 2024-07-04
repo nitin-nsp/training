@@ -161,29 +161,3 @@ END;
 
 
 
-
-DECLARE
-    new_salary NUMBER(8, 2);  -- Declare variable for new salary
-BEGIN
-    -- Prompt user for input
-    DBMS_OUTPUT.PUT('Enter Employee ID: ');
-    :emp_id := &emp_id; -- Use bind variable for employee ID
-    DBMS_OUTPUT.PUT('Enter New Salary: ');
-    :salary := &salary; -- Use bind variable for new salary
-
-    -- Update the salary for the employee with the entered ID
-    UPDATE employees
-    SET salary = :salary
-    WHERE employee_id = :emp_id;
-
-    -- Commit the transaction
-    COMMIT;
-
-    -- Display success message
-    DBMS_OUTPUT.PUT_LINE('Salary updated successfully for Employee ID ' || :emp_id);
-EXCEPTION
-    WHEN OTHERS THEN
-        DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
-        ROLLBACK;
-END;
-/

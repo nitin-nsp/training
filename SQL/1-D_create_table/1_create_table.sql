@@ -1,3 +1,6 @@
+/*
+1. ⦁	Create a table MY_ EMPLOYEE with columns id, last_name,first_name,user_id,salary.
+*/
 CREATE TABLE MY_EMPLOYEE(
   id int,
   first_name varchar(100),
@@ -7,6 +10,9 @@ CREATE TABLE MY_EMPLOYEE(
 );
 
 -- drop table MY_EMPLOYEE;
+/*
+2.	Add the rows of data to the MY_EMPLOYEE table from the following sample data. Concatenate the first letter of the first name and the first seven characters of the last name to produce the userid
+*/
 INSERT INTO
   MY_EMPLOYEE(id, first_name, last_name, user_id, salary)
 values

@@ -9,73 +9,77 @@
 --join
 --departments d on e.department_id = d.department_id;
 select
-    department_name,
+    DEPARTMENT_NAME,
     dense_rank() over (
         order by
-            avgsalary
-    ) as rank
+            AVGSALARY
+    ) as RANK
 from
     (
         select
-            d.department_name,
-            avg(e.salary) as avgsalary
+            D.DEPARTMENT_NAME,
+            AVG(E.SALARY) as AVGSALARY
         from
-            employees e
-            join departments d on e.department_id = d.department_id
+            EMPLOYEES E
+            join DEPARTMENTS D on E.DEPARTMENT_ID = D.DEPARTMENT_ID
         group by
-            d.department_name
-    ) tmp;
+            D.DEPARTMENT_NAME
+    ) TMP;
 
 --2
-SELECT
-    e.first_name,
-    e.hire_date,
-    e.department_id,
-    Dense_rank() over (
-        partition by e.department_id
+select
+    E.FIRST_NAME,
+    E.HIRE_DATE,
+    E.DEPARTMENT_ID,
+    dense_rank() over (
+        partition by E.DEPARTMENT_ID
         order by
-            TRUNC(MONTHS_BETWEEN(SYSDATE, e.hire_date) / 12) desc
-    ) AS rnk
+            TRUNC(MONTHS_BETWEEN(sysdate, E.HIRE_DATE) / 12) desc
+    ) as RNK
 from
-    employees e;
+    EMPLOYEES E;
 
 --3 
-SELECT
+select
     E.FIRST_NAME,
     E.SALARY,
     E.EMPLOYEE_ID,
-    LEAD(E.SALARY) OVER(
-        ORDER BY
+    LEAD(E.SALARY) over(
+        order by
             E.HIRE_DATE
-    ) - E.SALARY AS SALARY_DIFF
-FROM
+    ) - E.SALARY as SALARY_DIFF
+from
     EMPLOYEES E;
 
 --4
 select
-    emp.first_name,
-    emp.salary,
-    emp.employee_id,
-    emp.salary_diff
+    EMP.FIRST_NAME,
+    EMP.SALARY,
+    EMP.EMPLOYEE_ID,
+    EMP.SALARY_DIFF
 from
     (
         select
-            e.first_name,
-            e.salary,
-            e.employee_id,
-            lead(e.salary, 1, 0) OVER (
-                ORDER BY
-                    e.hire_date
-            ) - e.salary AS salary_diff
+            E.FIRST_NAME,
+            E.SALARY,
+            E.EMPLOYEE_ID,
+            LEAD(E.SALARY, 1, 0) over (
+                order by
+                    E.HIRE_DATE
+            ) - E.SALARY as SALARY_DIFF
         from
-            employees e
-    ) emp
+            EMPLOYEES E
+    ) EMP
 order by
-    emp.salary_diff desc;
+    EMP.SALARY_DIFF desc;
 
 --5
 select
-    *
+    E.*,
+    ROUND(YI.YEAR1 / E.SALARY * 100,2) as "Percent Increment Year 1",
+    ROUND(YI.YEAR2 / (E.SALARY + YI.YEAR1) * 100,2) as "Percent Increment Year 2",
+    ROUND(YI.YEAR3 / (E.SALARY + YI.YEAR1 + YI.YEAR2)*100,2) as "Increment Year 3",
+    ROUND(YI.YEAR4 / (E.SALARY + YI.YEAR1 + YI.YEAR2 + YI.YEAR3)*100,2) as "Increment Year 4"
 from
-    yearlyIncrement yi
-    left join employees e on yi.employee_id = e.employee_id;
+    YEARLYINCREMENT YI
+    left join EMPLOYEES E on YI.EMPLOYEE_ID = E.EMPLOYEE_ID;

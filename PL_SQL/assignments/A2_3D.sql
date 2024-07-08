@@ -8,6 +8,18 @@ sol: implicit cursor are inbuilt cursor or pointor sort of thing that keep point
 and it has some characteristics properties which they can access
 */
 --b) Write a PL/SQL block that uses an implicit cursor to fetch and display the names of all employees from the "employees" table.
+DECLARE
+  V_EMP_NAME EMPLOYEES.FIRST_NAME%TYPE;
+BEGIN
+  FOR EMP IN
+  (SELECT FIRST_NAME FROM EMPLOYEES
+  )
+  LOOP
+    V_EMP_NAME:=EMP.FIRST_NAME;
+    DBMS_OUTPUT.PUT_LINE(V_EMP_NAME);
+  END LOOP;
+END;
+/
 --2. Write a PL/SQL block to retrieve and display the details of an employee with a specific ID. Prompt the user to enter the employee ID as input.
 --2
 DECLARE
@@ -34,7 +46,7 @@ BEGIN
     )
     VALUES
     (
-      12,
+      12, -- department id nextseq ??
       V_DEPART_NAME,
       V_LOCATION
     );
@@ -58,12 +70,85 @@ BEGIN
   END IF;
 END;
 /
+DECLARE
+  v_employee_id employees.employee_id%TYPE := 1000;
+  v_employee_name employees.first_name%TYPE;
+BEGIN
+  v_employee_id=&v_employee_id;
+  SELECT first_name
+  INTO v_employee_name
+  FROM EMPLOYEES
+  WHERE employee_id = v_employee_id;
+  DBMS_OUTPUT.PUT_LINE('Employee Name: ' || v_employee_name);
+EXCEPTION
+WHEN NO_DATA_FOUND THEN
+  DBMS_OUTPUT.PUT_LINE('no_data_found=>  ' || v_employee_id);
+END;
+/
 --5. Transaction Management:
 --a) Write a PL/SQL block that transfers an employee from one department to another. Update the "departments" table and the "employees" table to reflect the change. Ensure that both updates are treated as a single transaction and are committed only if both succeed.
+DECLARE
+BEGIN
+  BEGIN
+    Transaction
+    INSERT
+    INTO DEPARTMENTS
+      (
+        DEPARTMENT_ID,
+        DEPARTMENT_NAME
+      )
+      VALUES
+      (
+        14,
+        'new_department_5a'
+      );
+    UPDATE EMPLOYEES DEPARTMENT_ID=14 WHERE EMPLOYEE_ID=100;
+  END TRANSACTION;
+END;
+/
+DECLARE
+  v_employee_id employees.employee_id%TYPE           := 100;
+  v_new_department_id departments.department_id%TYPE := 14;
+BEGIN
+  BEGIN
+    INSERT
+    INTO DEPARTMENTS
+      (
+        DEPARTMENT_ID,
+        DEPARTMENT_NAME
+      )
+      VALUES
+      (
+        v_new_department_id,
+        'New Department_5a'
+      );
+    UPDATE employees
+    SET department_id = v_new_department_id
+    WHERE employee_id = v_employee_id;
+    COMMIT;
+    DBMS_OUTPUT.PUT_LINE('emp ' || v_employee_id || v_new_department_id || 'get transfered .');
+  EXCEPTION
+  WHEN OTHERS THEN
+    ROLLBACK;
+    DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
+  END;
+END;
+/
 --b) Create a stored procedure that allows updating an employee's job title and salary simultaneously. If the job title is updated successfully, but the salary update fails, the procedure should roll back the job title change.
 --
 --6. Write a PL/SQL block to retrieve the employee details (employee_id, first_name, last_name, and salary) from the "employees" table for a given department ID (prompt user). If no employees are found, display "No employees found for the given department."
 --
+DECLARE
+  CURSOR EMP_cur
+  IS
+    SELECT * FROM employees WHERE DEPARTMENT_ID=&DEPARTMENT_ID;
+BEGIN
+  FOR REC IN EMP_CUR
+  LOOP
+    DBMS_OUTPUT.PUT_LINE(REC.EMPLOYEE_ID|| ' -> '|| REC.FIRST_NAME|| '-> '|| REC.LAST_NAME);
+  END LOOP;
+END;
+/
 --7. Create a PL/SQL block that increases the salary of all employees in the "sales" department by 10%. Display the affected employee IDs and their updated salaries.
 DECLARE
   CURSOR EMP_CURSOR
@@ -71,45 +156,54 @@ DECLARE
     SELECT *
     FROM EMPLOYEES
     WHERE department_id =
-      ( SELECT department_id FROM departments
-      WHERE DEPARTMENT_NAME='Sales'
+      ( SELECT department_id FROM departments WHERE DEPARTMENT_NAME='Sales'
       );
 BEGIN
-
-FOR  EMP_REC IN EMP_CURSOR LOOP
- 
- UPDATE EMPLOYEES 
- SET SALARY =SALARY*1.1
- WHERE EMPLOYEE_ID=EMP_REC.EMPLOYEE_ID;
- 
- dbms_output.put_line('emp->' 
-END;
-/
---8. Write a PL/SQL block that deletes all employees who have a salary less than 3000 and hire date older than 5 years. Display the count of deleted employees.
---
-DECLARE
-  V_CNT NUMBER := 0;
-BEGIN
-  SELECT COUNT(*)
-  INTO V_CNT
-  FROM EMPLOYEES
-  WHERE SALARY                                        < 3000
-  AND TRUNC(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) >= 5;
-  DBMS_OUTPUT.PUT_LINE('Count select: ' || V_CNT);
-  --  DELETE EMPLOYEES
-  --  WHERE SALARY                                        < 3000
-  --  AND TRUNC(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) >= 5;
-  IF SQL%ROWCOUNT >0 THEN
-    DBMS_OUTPUT.PUT_LINE('Count delete: ' || SQL%ROWCOUNT);
-  END IF;
-END;
-/
---9. Write a PL/SQL block to insert a new record into the "employees" table.
-DECLARE
-  v_newRecord employees%ROWTYPE;
-BEGIN
-  V_NEWRECORD.EMPLOYEE_ID:=1;
-  v_newRecord.last_name
-END;
-/
---4
+  FOR EMP_REC IN EMP_CURSOR
+  LOOP
+    UPDATE EMPLOYEES
+    SET SALARY       =SALARY*1.1
+    WHERE EMPLOYEE_ID=EMP_REC.EMPLOYEE_ID;
+    dbms_output.put_line('emp->'
+  END;
+  /
+  --8. Write a PL/SQL block that deletes all employees who have a salary less than 3000 and hire date older than 5 years. Display the count of deleted employees.
+  --
+  DECLARE
+    V_CNT NUMBER := 0;
+  BEGIN
+    SELECT COUNT(*)
+    INTO V_CNT
+    FROM EMPLOYEES
+    WHERE SALARY                                        < 3000
+    AND TRUNC(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) >= 5;
+    DBMS_OUTPUT.PUT_LINE('Count select: ' || V_CNT);
+    --  DELETE EMPLOYEES
+    --  WHERE SALARY                                        < 3000
+    --  AND TRUNC(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) >= 5;
+    IF SQL%ROWCOUNT >0 THEN
+      DBMS_OUTPUT.PUT_LINE('Count delete: ' || SQL%ROWCOUNT);
+    END IF;
+  END;
+  /
+  --9. Write a PL/SQL block to insert a new record into the "employees" table.
+  DECLARE
+    v_newRecord employees%ROWTYPE;
+  BEGIN
+  
+    V_NEWRECORD.EMPLOYEE_ID:=1;
+      V_NEWRECORD.FIRST_NAME:='nitin';
+    V_NEWRECORD.LAST_NAME:='singh';
+    V_NEWRECORD.EMAIL:='nitin.singh@abc.in';
+--     V_NEWRECORD.phone_number:='8383848
+   V_NEWRECORD.HIRE_DATE:=SYSDATE;
+   V_NEWRECORD.JOB_ID:=4;
+   V_NEWRECORD.SALARY:=2342;
+   
+   INSERT INTO EMPLOYEES VALUES v_newRecord;
+  
+    
+    
+    
+  END;
+  /

@@ -65,11 +65,26 @@ END;
 --6. Write a PL/SQL block to retrieve the employee details (employee_id, first_name, last_name, and salary) from the "employees" table for a given department ID (prompt user). If no employees are found, display "No employees found for the given department."
 --
 --7. Create a PL/SQL block that increases the salary of all employees in the "sales" department by 10%. Display the affected employee IDs and their updated salaries.
-
 DECLARE
-BEGIN 
-END;/
+  CURSOR EMP_CURSOR
+  IS
+    SELECT *
+    FROM EMPLOYEES
+    WHERE department_id =
+      ( SELECT department_id FROM departments
+      WHERE DEPARTMENT_NAME='Sales'
+      );
+BEGIN
 
+FOR  EMP_REC IN EMP_CURSOR LOOP
+ 
+ UPDATE EMPLOYEES 
+ SET SALARY =SALARY*1.1
+ WHERE EMPLOYEE_ID=EMP_REC.EMPLOYEE_ID;
+ 
+ dbms_output.put_line('emp->' 
+END;
+/
 --8. Write a PL/SQL block that deletes all employees who have a salary less than 3000 and hire date older than 5 years. Display the count of deleted employees.
 --
 DECLARE
@@ -80,15 +95,11 @@ BEGIN
   FROM EMPLOYEES
   WHERE SALARY                                        < 3000
   AND TRUNC(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) >= 5;
-  
-  
   DBMS_OUTPUT.PUT_LINE('Count select: ' || V_CNT);
-  
-  
---  DELETE EMPLOYEES
---  WHERE SALARY                                        < 3000
---  AND TRUNC(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) >= 5;
-  IF SQL%ROWCOUNT                                     >0 THEN
+  --  DELETE EMPLOYEES
+  --  WHERE SALARY                                        < 3000
+  --  AND TRUNC(MONTHS_BETWEEN(SYSDATE, HIRE_DATE) / 12) >= 5;
+  IF SQL%ROWCOUNT >0 THEN
     DBMS_OUTPUT.PUT_LINE('Count delete: ' || SQL%ROWCOUNT);
   END IF;
 END;

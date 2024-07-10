@@ -1,0 +1,251 @@
+--1. Create a PL/SQL program that declares a nested table of integers, populates it with values (e.g., 10, 20, 30), and then displays the elements of the nested table.
+--
+--2. Create a PL/SQL program that declares a varray of characters with a fixed size of 5. 
+--Implement a loop to take input from the user for all five elements of the varray and then display the contents of the varray.
+--
+--3. Create a PL/SQL program that declares an associative array (index-by table) of student names and their respective scores in a test. 
+--Populate the array with at least five records and then display the student names along with their scores.
+set serverout on ;
+
+DECLARE
+  TYPE StudentScores IS TABLE OF NUMBER INDEX BY VARCHAR2(50);
+  stu_scores STUDENTSCORES;
+  counter VARCHAR2(50);
+BEGIN
+
+  STU_SCORES('nitin') := 85;
+  stu_scores('singh') := 92;
+
+
+  COUNTER:=STU_SCORES.FIRST;
+  WHILE COUNTER IS NOT NULL LOOP
+  DBMS_OUTPUT.PUT_LINE('couter => '|| COUNTER ||' ' || STU_SCORES(COUNTER) );
+  counter:=stu_scores.next(counter);
+  END LOOP;
+  
+
+END;
+/
+
+DECLARE
+ 
+  TYPE StudentRecord IS RECORD (
+    NAME VARCHAR2(50),
+    SCORE NUMBER
+  );
+  
+ 
+  TYPE StudentScores IS TABLE OF StudentRecord INDEX BY BINARY_INTEGER;
+  
+ 
+  STU_SCORES STUDENTSCORES := STUDENTSCORES(
+    1 => StudentRecord('nitin', 45),
+    2 => StudentRecord('singh', 92)
+  );
+BEGIN
+  
+  FOR i IN 1 .. stu_scores.COUNT LOOP
+    DBMS_OUTPUT.PUT_LINE('Student ' || i || ': ' || stu_scores(i).NAME || ' - Score: ' || stu_scores(i).SCORE);
+  END LOOP;
+END;
+/
+
+set serveroutput on;
+DECLARE
+
+  TYPE StudentRecord IS RECORD (
+    NAME VARCHAR2(50),
+    SCORE NUMBER
+  );
+  
+
+  TYPE StudentScores IS TABLE OF StudentRecord INDEX BY BINARY_INTEGER;
+  
+
+  stu_scores StudentScores;
+BEGIN
+
+  stu_scores(1).NAME := 'John';
+  stu_scores(1).SCORE := 45;
+  
+  stu_scores(2).NAME := 'Alice';
+  stu_scores(2).SCORE := 92;
+  
+
+  FOR i IN 1 .. stu_scores.COUNT LOOP
+    DBMS_OUTPUT.PUT_LINE('Student ' || i || ': ' || stu_scores(i).NAME || ' - Score: ' || stu_scores(i).SCORE);
+  END LOOP;
+END;
+/
+
+
+--4. Write a PL/SQL program that uses an associative array of question 3. Calculate the average of all the values of the scores in the array.
+
+--5. Create a PL/SQL program that declares a nested table of timestamps. 
+--Implement a loop to populate the collection with timestamps representing different dates and times, 
+--AND THEN DISPLAY THE TIMESTAMPS IN CHRONOLOGICAL ORDER.
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--/* docs by oracle */
+--
+--
+--/*
+--
+--DECLARE
+--   TYPE NumList IS TABLE OF NUMBER;
+--   n NumList := NumList(1,3,5,7);
+--   counter INTEGER;
+--BEGIN
+--   dbms_output.put_line('N''s first subscript is ' || n.FIRST);
+--   dbms_output.put_line('N''s last subscript is ' || n.LAST);
+--
+---- When the subscripts are consecutive starting at 1, it's simple to loop through them.
+--   FOR i IN n.FIRST .. n.LAST
+--   LOOP
+--      dbms_output.put_line('Element #' || i || ' = ' || n(i));
+--   END LOOP;
+--
+--   n.DELETE(2); -- Delete second element.
+---- When the subscripts have gaps or the collection might be uninitialized,
+---- the loop logic is more extensive. We start at the first element, and
+---- keep looking for the next element until there are no more.
+--   IF n IS NOT NULL THEN
+--      counter := n.FIRST;
+--      WHILE counter IS NOT NULL
+--      LOOP
+--         dbms_output.put_line('Element #' || counter || ' = ' || n(counter));
+--         counter := n.NEXT(counter);
+--      END LOOP;
+--   ELSE
+--      dbms_output.put_line('N is null, nothing to do.');
+--   END IF;
+--END;
+--/
+--
+--
+--
+--
+--
+--
+--
+--
+--set serveroutput on;
+--
+--
+--DECLARE
+--   TYPE NumList IS TABLE OF NUMBER;
+--   n NumList := NumList(1966,1971,1984,1989,1999);
+--BEGIN
+--   dbms_output.put_line('The element after #2 is #' || n.NEXT(2));
+--   dbms_output.put_line('The element before #2 is #' || n.PRIOR(2));
+--   n.DELETE(3); -- Delete an element to show how NEXT can handle gaps.
+--   dbms_output.put_line('Now the element after #2 is #' || n.NEXT(2));
+--   IF n.PRIOR(n.FIRST) IS NULL THEN
+--      dbms_output.put_line('Can''t get PRIOR of the first element or NEXT of the last.');
+--   END IF;
+--END;
+--/
+----You can use PRIOR or NEXT to traverse collections indexed by any series of subscripts.
+----The following example uses NEXT to traverse a nested table from which some elements have been deleted:
+--
+--DECLARE
+--   TYPE NumList IS TABLE OF NUMBER;
+--   n NumList := NumList(1,3,5,7);
+--   counter INTEGER;
+--BEGIN
+--   n.DELETE(2); -- Delete second element.
+---- When the subscripts have gaps, the loop logic is more extensive. We start at the
+---- first element, and keep looking for the next element until there are no more.
+--   counter := n.FIRST;
+--   WHILE counter IS NOT NULL
+--   LOOP
+--      dbms_output.put_line('Counting up: Element #' || counter || ' = ' || n(counter));
+--      counter := n.NEXT(counter);
+--   END LOOP;
+--
+---- Run the same loop in reverse order.
+--   counter := n.LAST;
+--   WHILE counter IS NOT NULL
+--   LOOP
+--      dbms_output.put_line('Counting down: Element #' || counter || ' = ' || n(counter));
+--      counter := n.PRIOR(counter);
+--   END LOOP;
+--END;
+--/
+--
+--
+--
+--
+--DECLARE
+--   TYPE NumList IS TABLE OF NUMBER;
+--   n NumList := NumList(1,2,3,5,7,11);
+--   PROCEDURE print_numlist(the_list NumList) IS
+--      output VARCHAR2(128);
+--   BEGIN
+--      IF n.COUNT = 0 THEN
+--         dbms_output.put_line('No elements in collection.');
+--      ELSE
+--         FOR i IN the_list.FIRST .. the_list.LAST
+--         LOOP
+--            output := output || NVL(TO_CHAR(the_list(i)),'NULL') || ' ';
+--         END LOOP;
+--         dbms_output.put_line(output);
+--      END IF;
+--   END;
+--BEGIN
+--   print_numlist(n);
+--   n.TRIM(2); -- Remove last 2 elements.
+--   print_numlist(n);
+--   n.TRIM; -- Remove last element.
+--   print_numlist(n);
+--   n.TRIM(n.COUNT); -- Remove all remaining elements.
+--   print_numlist(n);
+--
+---- If too many elements are specified, TRIM raises the exception SUBSCRIPT_BEYOND_COUNT.
+--   BEGIN
+--      n := NumList(1,2,3);
+--      n.TRIM(100);
+--      EXCEPTION
+--         WHEN SUBSCRIPT_BEYOND_COUNT THEN
+--            dbms_output.put_line('I guess there weren''t 100 elements that could be trimmed.');
+--   END;
+--
+---- When elements are removed by DELETE, placeholders are left behind. TRIM counts these
+---- placeholders as it removes elements from the end.
+--
+--   n := NumList(1,2,3,4);
+--   n.DELETE(3);  -- delete element 3
+---- At this point, n contains elements (1,2,4).
+---- TRIMming the last 2 elements removes the 4 and the placeholder, not 4 and 2.
+--   n.TRIM(2);
+--   print_numlist(n);
+--END;
+--/
+--END;
+--/
+--
+--*/

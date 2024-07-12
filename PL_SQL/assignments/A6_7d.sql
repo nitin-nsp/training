@@ -12,7 +12,8 @@ BEGIN
   LOOP
     FETCH EMP_CUR INTO V_SALARY;
     EXIT
-  WHEN EMP_CUR%NOTFOUND;
+  when EMP_CUR%NOTFOUND;
+  
     v_salary:=v_salary/0;
   END LOOP;
   CLOSE emp_cur;

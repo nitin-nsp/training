@@ -1,7 +1,7 @@
 from tabulate import tabulate
 import json 
 
-from colored import print_ascii_art,border
+from A_1.colored_board import print_ascii_art,border
 from utilityFun import *
 from global_var import *
 

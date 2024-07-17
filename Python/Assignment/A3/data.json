@@ -1,0 +1,92 @@
+[
+    {
+        "bookName": "coders",
+        "authorName": "nitin singh",
+        "PublishedYear": 1939,
+        "genre": "Romance",
+        "price": "Franc",
+        "rating": 4,
+        "book_uuid": "a22639f7-9315-4c2b-9e34-565f75dfa9d3"
+    },
+    {
+        "bookName": "Mrs",
+        "authorName": "Emmet Cristofolo",
+        "PublishedYear": 1975,
+        "genre": "Science Fiction",
+        "price": "Yuan Renminbi",
+        "rating": 3,
+        "book_uuid": "487a82f0-7749-460f-a502-b69dc795a80b"
+    },
+    {
+        "bookName": "Rev",
+        "authorName": "Johnny Troke",
+        "PublishedYear": 1980,
+        "genre": "Non-Fiction",
+        "price": "Real",
+        "rating": 5,
+        "book_uuid": "3d73b7d5-5442-4923-a69a-a086141eb402"
+    },
+    {
+        "bookName": "Honorable",
+        "authorName": "Nadia Bullin",
+        "PublishedYear": 1975,
+        "genre": "Mystery",
+        "price": "Peso",
+        "rating": 3,
+        "book_uuid": "3e875049-27ba-4e44-903c-27088a8f8da8"
+    },
+    {
+        "bookName": "Ms",
+        "authorName": "Magdalen Glasby",
+        "PublishedYear": 1949,
+        "genre": "Romance",
+        "price": "Rupee",
+        "rating": 4,
+        "book_uuid": "ee452dcb-59e3-45e1-9f03-c31556030795"
+    },
+    {
+        "bookName": "Rev",
+        "authorName": "Aleen Benham",
+        "PublishedYear": 1995,
+        "genre": "Fiction",
+        "price": "Won",
+        "rating": 4,
+        "book_uuid": "e1eaacc5-3c5c-4155-bfa2-b2c21085eed4"
+    },
+    {
+        "bookName": "Rev",
+        "authorName": "Rudyard Litchfield",
+        "PublishedYear": 1901,
+        "genre": "Romance",
+        "price": "Yuan Renminbi",
+        "rating": 2,
+        "book_uuid": "b7e0c3ae-4c13-46c7-bf3a-ded6d1ea9c93"
+    },
+    {
+        "bookName": "Dr",
+        "authorName": "Dorelle Burchmore",
+        "PublishedYear": 2016,
+        "genre": "Science Fiction",
+        "price": "Peso",
+        "rating": 2,
+        "book_uuid": "8d27b23b-d2b1-4246-9861-035c914cf5b0"
+    },
+    {
+        "bookName": "Dr",
+        "authorName": "Cristal Elder",
+        "PublishedYear": 1982,
+        "genre": "Science Fiction",
+        "price": "Yuan Renminbi",
+        "rating": 4,
+        "book_uuid": "1d04b93d-075f-468c-9256-c3505a776767"
+    },
+    {
+        "bookName": "Rev",
+        "authorName": "Maighdiln Helliker",
+        "PublishedYear": 1916,
+        "genre": "Non-Fiction",
+        "price": "Ruble",
+        "rating": 3,
+        "book_uuid": "b80b697c-9387-43a5-aed0-ee402d99fc08"
+    }
+]

@@ -1,16 +1,24 @@
-# Python venv
-venv/
+# pip install -r requirements.txt
+
+
+# Ignore virtual environments
+*/venv/
+*/__pycache__/
+*/bin/
+*/include/
+*/lib/
+
+# Ignore compiled Python files
 *.pyc
 *.pyo
-__pycache__/
 
-# Environment variables
-.env
+# Ignore environment-specific files
+*.env
 
-# Editor and IDE files
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore IDE and editor-specific directories
 .vscode/
 .idea/
 *.iml
-
-# Miscellaneous
-.DS_Store

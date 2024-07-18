@@ -1,0 +1,29 @@
+[
+    {
+        "bookName": "coders pro",
+        "authorName": "nitin singh nsp",
+        "PublishedYear": 1932,
+        "genre": "Romance",
+        "price": "Franc",
+        "rating": 4,
+        "book_uuid": "a22639f7-9315-4c2b-9e34-565f75dfa9d3"
+    },
+    {
+        "bookName": "Rev",
+        "authorName": "Maighdiln Helliker",
+        "PublishedYear": 1916,
+        "genre": "Non-Fiction",
+        "price": "Ruble",
+        "rating": 3,
+        "book_uuid": "b80b697c-9387-43a5-aed0-ee402d99fc08"
+    },
+    {
+        "bookName": "flask",
+        "authorName": "nsp",
+        "PublishedYear": 1939,
+        "genre": "Romance",
+        "price": "Franc",
+        "rating": 4,
+        "book_uuid": "8308c2b1-ad92-40fe-889e-adefbe24ea9b"
+    }
+]

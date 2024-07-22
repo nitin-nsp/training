@@ -1,0 +1,39 @@
+# virtual 
+>> python -m venv <name>
+>> source ./bin/<name>
+
+
+# install django
+>> pip install django
+
+#start the run server 
+>> python manage.py runserver
+
+
+# starting new project 
+>> django-admin startproject <project name>
+
+# adding new dir
+>> python manage.py startapp <name of new dir>
+
+# creating admin 
+error: no such table
+
+>> python manage.py makemigrations
+>> python manage.py migrate
+
+>> python manage.py  createsuperuser
+
+
+
+# to see the sql code that is run during makemigrations
+>> python manage.py sqlmigrate <blog> <0001>
+
+#for shell
+
+>> python manage.py shell
+
+
+
+
+>> pip install django-crispy-forms

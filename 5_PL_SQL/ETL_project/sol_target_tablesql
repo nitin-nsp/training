@@ -1,0 +1,34 @@
+CREATE TABLE TAR_ADDRESS (
+    "ID" VARCHAR2(36) DEFAULT SYS_GUID(),
+    "ADDRESS" VARCHAR2(250),
+    "APTSUITE" VARCHAR2(20) DEFAULT NULL,
+    "LONGITUDE" FLOAT DEFAULT NULL,
+    "LATITUDE" FLOAT DEFAULT NULL,
+    "CITY" VARCHAR2(100) DEFAULT 'NY',
+    "COUNTRY" VARCHAR2(100) DEFAULT 'USA',
+    "STATE" VARCHAR2(100) DEFAULT 'Manhattan',
+    "ZIPCODE" VARCHAR2(100) DEFAULT '10001',
+    "CREATED_BY" VARCHAR2(36) NOT NULL DEFAULT 'e4871664-a544-4cf8-ab4a-38e784ebfdb5',
+    "UPDATED_BY" VARCHAR2(36) NOT NULL DEFAULT 'e4871664-a544-4cf8-ab4a-38e784ebfdb5',
+    "DELETED_BY" VARCHAR2(36) DEFAULT 'e4871664-a544-4cf8-ab4a-38e784ebfdb5'
+);
+
+
+
+
+CREATE TABLE users
+(
+    id uuid NOT NULL,
+    first_name character varying(100) COLLATE pg_catalog."default",
+    last_name character varying(100) COLLATE pg_catalog."default",
+    middle_name character varying(100) COLLATE pg_catalog."default",
+    gender character varying(1) COLLATE pg_catalog."default",
+    is_active boolean,
+	CONTACT_NUMBER CHARACTER VARYING (50),
+    manabadi_email character varying(100) COLLATE pg_catalog."default",
+    personal_email character varying(100) COLLATE pg_catalog."default",
+    address_id uuid not null,
+    created_by uuid not null,
+    updated_by uuid not null,
+    DELETED_BY UUID
+);

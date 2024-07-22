@@ -1,0 +1,1912 @@
+name,active_status,address,geo,region,coordinators
+Eastvale-Corona,TRUE,"13820, Schleisman Road, Eastvale, CA, 92880, United States","{
+  ""geo"": {
+    ""lat"": ""33.9607571"",
+    ""long"": ""-117.58475229999999""
+  }
+}","LA,USA-West","dileep.madireddy@manabadi.siliconandhra.org,bhaskara.undi@manabadi.siliconandhra.org"
+Simi Valley - Shepherd of the valley Lutheran Church,TRUE,"4191, Cochran Street, Simi Valley, CA, 93063, United States","{
+  ""geo"": {
+    ""lat"": ""34.279328600000007"",
+    ""long"": ""-118.71327580000002""
+  }
+}","LA,USA-West","dileep.madireddy@manabadi.siliconandhra.org,sudha.davuluri@manabadi.siliconandhra.org"
+Ventura,TRUE,"6085, King Drive, Ventura, CA, 93003, United States","{
+  ""geo"": {
+    ""lat"": ""34.24606"",
+    ""long"": ""-119.20565999999997""
+  }
+}","LA,USA-West","aravind.atluri1@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org"
+Santa Clarita - Valencia,TRUE,"28622 High Ridge Dr, Santa Clarita, CA 91390, USA","{
+  ""geo"": {
+    ""lat"": ""34.4629756"",
+    ""long"": ""-118.5027728""
+  }
+}","LA,USA-West","narendra.kavarthapu@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org"
+Burbank,TRUE,"1515 N Glenoaks Blvd, Burbank, CA 91504, USA","{
+  ""geo"": {
+    ""lat"": ""34.1927014"",
+    ""long"": ""-118.3208416""
+  }
+}","LA,USA-West","dileep.madireddy@manabadi.siliconandhra.org,bhavana.parvathareddy@manabadi.siliconandhra.org"
+Irvine - Lyceum Village,TRUE,"14281 Chambers Rd, Tustin, CA 92780, USA","{
+  ""geo"": {
+    ""lat"": ""33.7209768"",
+    ""long"": ""-117.8065052""
+  }
+}","LA,USA-West","dileep.madireddy@manabadi.siliconandhra.org,aravinda.thutupalli@manabadi.siliconandhra.org"
+Woodland Hills (First United Methodist Church),TRUE,"22700, Sherman Way, Los Angeles, CA, 91307, United States","{
+  ""geo"": {
+    ""lat"": ""34.2000526"",
+    ""long"": ""-118.6224267""
+  }
+}","LA,USA-West","sreedhar.bandlamudi@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org"
+"Lake Forest - Aloha Mind Math,",TRUE,"22706 Aspan St, Lake Forest, CA 92630, USA","{
+  ""geo"": {
+    ""lat"": ""33.632807599999992"",
+    ""long"": ""-117.71517979999999""
+  }
+}","LA,USA-West","krishna.keerthipati@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org"
+Arcadia Presbyterian Church,TRUE,"121, Alice Street, Arcadia, CA, 91006, United States","{
+  ""geo"": {
+    ""lat"": ""34.1317405"",
+    ""long"": ""-118.02697639999997""
+  }
+}","LA,USA-West","dileep.madireddy@manabadi.siliconandhra.org,shashanka.pasupunuri@manabadi.siliconandhra.org"
+Cerritos/Artesia (New Life Community Church),TRUE,"18800, Norwalk Boulevard, Artesia, CA, 90701, United States","{
+  ""geo"": {
+    ""lat"": ""33.8609569"",
+    ""long"": ""-118.07149809999999""
+  }
+}","LA,USA-West","chandrasekhar.vempati@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org,mohan.katragadda@manabadi.siliconandhra.org"
+Reading,TRUE,,"{
+  ""geo"": null
+}",UK,
+Manchester,TRUE,,"{
+  ""geo"": null
+}",UK,
+Plano - QD Academy,TRUE,"4100 Legacy Dr, Plano, TX, United States","{
+  ""geo"": {
+    ""lat"": ""33.0699417"",
+    ""long"": ""-96.773337700000013""
+  }
+}","DFW,USA-South West","srineela.kandala@manabadi.siliconandhra.org,vishnu.likki@manabadi.siliconandhra.org"
+Keller - Children's LightHouse,TRUE,"1655 N Tarrant Pkwy, Keller, TX 76248, USA","{
+  ""geo"": {
+    ""lat"": ""32.9006292"",
+    ""long"": ""-97.2157464""
+  }
+}","DFW,USA-South West",gautam.kasturi@manabadi.siliconandhra.org
+Central Plano,TRUE,"3929 Alma Drive, Plano, TX 75023, United States","{
+  ""geo"": {
+    ""lat"": ""33.0493801"",
+    ""long"": ""-96.710647399999971""
+  }
+}","DFW,USA-South West","ramarao.paluri@manabadi.siliconandhra.org,rajyalakshmi.jeedigunta@manabadi.siliconandhra.org,deepak.mavuleti@manabadi.siliconandhra.org"
+Flower Mound - Kids R Kids,TRUE,"1230 Flower Mound Rd, Flower Mound, TX 75028, USA","{
+  ""geo"": {
+    ""lat"": ""33.01306"",
+    ""long"": ""-97.046567499999981""
+  }
+}","DFW,USA-South West",mythili.kasturi@manabadi.siliconandhra.org
+Irving Saturday - Excel Academy,TRUE,"504 Ranch Trail, Irving, TX 75063, USA","{
+  ""geo"": {
+    ""lat"": ""32.9267455"",
+    ""long"": ""-96.952996699999971""
+  }
+}","DFW,USA-South West",janardhana.paligaram@manabadi.siliconandhra.org
+Flower Mound,TRUE,"3325 Long Prairie Road, Flower Mound, TX, United States","{
+  ""geo"": {
+    ""lat"": ""33.0315998"",
+    ""long"": ""-97.0714074""
+  }
+}","DFW,USA-South West","ramarao.paluri@manabadi.siliconandhra.org,srinivas.pindi@manabadi.siliconandhra.org,bala.ganapavarapu@manabadi.siliconandhra.org"
+Frisco Sunday - Amazing Children's Montessori,TRUE,"11445 Independence Pkwy, Frisco, TX 75035, USA","{
+  ""geo"": {
+    ""lat"": ""33.1717702"",
+    ""long"": ""-96.75116330000003""
+  }
+}","DFW,USA-South West",siva.tumuluru@manabadi.siliconandhra.org
+Frisco Saturday - Children's LightHouse,TRUE,"10660 Eldorado Parkway, Frisco, TX 75035, United States","{
+  ""geo"": {
+    ""lat"": ""33.1750921"",
+    ""long"": ""-96.787815099999989""
+  }
+}","DFW,USA-South West",ravikumar.boneni@manabadi.siliconandhra.org
+Dubai-Sharjah,TRUE,,"{
+  ""geo"": null
+}",Dubai,
+Greater Vancouver,TRUE,"10350 University Dr, Surrey, BC V3T 4C3, Canada","{
+  ""geo"": {
+    ""lat"": ""49.190435399999991"",
+    ""long"": ""-122.84959420000001""
+  }
+}",Canada,"venkat.gangavarapu@manabadi.siliconandhra.org,sreedhar.gaddam@manabadi.siliconandhra.org"
+Markham - Scarborough (Greater Toronto Area),TRUE,"399 Elson St, Markham, ON L3S 4R8, Canada","{
+  ""geo"": {
+    ""lat"": ""43.8447012"",
+    ""long"": ""-79.2445863""
+  }
+}",Canada,"geethalakshmi.desu@manabadi.siliconandhra.org,chandrahasareddy.challa@manabadi.siliconandhra.org"
+North York ( Greater Toronto Area),TRUE,"55 Forest Manor Rd, North York, ON M2J 1G3, Canada","{
+  ""geo"": {
+    ""lat"": ""43.772583899999987"",
+    ""long"": ""-79.3438654""
+  }
+}",Canada,"lakshmi.darsipudi@manabadi.siliconandhra.org,venkatadurga.bandarupalli@manabadi.siliconandhra.org,geethalakshmi.desu@manabadi.siliconandhra.org"
+Intinta ManaBadi - (Canada - Online Weekends),TRUE,"Quebec City, QC, Canada","{
+  ""geo"": {
+    ""lat"": ""46.8138783"",
+    ""long"": ""-71.2079809""
+  }
+}",Canada,"padmini.paduchuri@manabadi.siliconandhra.org,venkat.nukala@manabadi.siliconandhra.org"
+Mississauga  (Greater Toronto Area),TRUE,"6300 Mississauga Road, Mississauga, ON, Canada","{
+  ""geo"": {
+    ""lat"": ""43.593699999999991"",
+    ""long"": ""-79.730651500000022""
+  }
+}",Canada,"venkat.nukala@manabadi.siliconandhra.org,jayanthi.namuduri@manabadi.siliconandhra.org,geethalakshmi.desu@manabadi.siliconandhra.org"
+Montreal - Quebec,TRUE,"17 Rue des Lilas, Kirkland, QC H9J 4A6, Canada","{
+  ""geo"": {
+    ""lat"": ""45.446430100000008"",
+    ""long"": ""-73.882237199999992""
+  }
+}",Canada,"lakshmi.tata@manabadi.siliconandhra.org,geethalakshmi.desu@manabadi.siliconandhra.org"
+Regina,TRUE,"1203n Smishek Dr, Regina, SK S4X 4M3, Canada","{
+  ""geo"": {
+    ""lat"": ""50.497623900000008"",
+    ""long"": ""-104.6564076""
+  }
+}",Canada,"prasad.gundubogula@manabadi.siliconandhra.org,swarnalatha.katralapalli@manabadi.siliconandhra.org,geethalakshmi.desu@manabadi.siliconandhra.org"
+Ajax (Greater Toronto Area),TRUE,"39 Kerrison Dr W, Ajax, ON L1Z 1K2, Canada","{
+  ""geo"": {
+    ""lat"": ""43.8695456"",
+    ""long"": ""-79.0276371""
+  }
+}",Canada,"nehru.malireddy@manabadi.siliconandhra.org,pradeep.kanamarlapudi@manabadi.siliconandhra.org,geethalakshmi.desu@manabadi.siliconandhra.org"
+Milton - Toronto,TRUE,"1241 Newell Street, Milton, ON, Canada","{
+  ""geo"": {
+    ""lat"": ""43.5361436"",
+    ""long"": ""-79.8600998""
+  }
+}",Canada,neelima.chinta@manabadi.siliconandhra.org
+Vaughan-Woodbridge ( Greater Toronto Area),TRUE,"120 Napa Valley Ave, Woodbridge, Vaughan, ON, Canada","{
+  ""geo"": {
+    ""lat"": ""43.8146636"",
+    ""long"": ""-79.61970789999998""
+  }
+}",Canada,"smtlakshmi.nanga@manabadi.siliconandhra.org,geethalakshmi.desu@manabadi.siliconandhra.org"
+Abu Halifa - Kuwait,TRUE,,"{
+  ""geo"": null
+}",Kuwait,
+Oslo- Norway,TRUE,,"{
+  ""geo"": null
+}",Norway,
+"Lagos, Nigeria",TRUE,,"{
+  ""geo"": null
+}",Nigeria,
+Aurora-Naperville (Chicago),TRUE,"1635, Emerson Lane, Naperville, IL, 60540, United States","{
+  ""geo"": {
+    ""lat"": ""41.758252"",
+    ""long"": ""-88.18885499999999""
+  }
+}","Illinois,USA-Mid West","kiran.mattey@manabadi.siliconandhra.org,sujatha.appalaneni@manabadi.siliconandhra.org,malathi.damaraju@manabadi.siliconandhra.org"
+West Dundee - Crystal Lake,TRUE,"516, Washington Street, West Dundee, IL, 60118, United States","{
+  ""geo"": {
+    ""lat"": ""42.0994225"",
+    ""long"": ""-88.2835867""
+  }
+}","Illinois,USA-Mid West",manjula.bhamidi@manabadi.siliconandhra.org
+Schaumburg - Salem Community Church,TRUE,"10 S Walnut Ln, Schaumburg, IL 60193, USA","{
+  ""geo"": {
+    ""lat"": ""42.0249113"",
+    ""long"": ""-88.129481899999973""
+  }
+}","Illinois,USA-Mid West",padma.vellanki@manabadi.siliconandhra.org
+"Kuala Lumpur, Malaysia",TRUE,,"{
+  ""geo"": null
+}",Malaysia,
+Troy South (BigBeaver & Livernois - ZION CHURCH),TRUE,"3668 Livernois Rd, Troy, MI 48083, USA","{
+  ""geo"": {
+    ""lat"": ""42.5722914"",
+    ""long"": ""-83.146305499999983""
+  }
+}","Michigan,USA-Mid West",kalyan.rachakonda@manabadi.siliconandhra.org
+Canton (Hindu Temple),TRUE,"44955, Cherry Hill Road, Canton, MI, 48188, United States","{
+  ""geo"": {
+    ""lat"": ""42.3061234"",
+    ""long"": ""-83.482886899999983""
+  }
+}","Michigan,USA-Mid West",chaitanya.katragadda@manabadi.siliconandhra.org
+Troy (Life Christian Church),TRUE,"3153 Rochester Rd, Troy, MI 48083, USA","{
+  ""geo"": {
+    ""lat"": ""42.565265"",
+    ""long"": ""-83.128920699999981""
+  }
+}","Michigan,USA-Mid West",kalyan.rachakonda@manabadi.siliconandhra.org
+Grand Rapids,TRUE,"1001, East Beltline Avenue Northeast, Grand Rapids, MI, 49525, United States","{
+  ""geo"": {
+    ""lat"": ""42.9801473"",
+    ""long"": ""-85.59209229999999""
+  }
+}","Michigan,USA-Mid West",rajitha.vanteru@manabadi.siliconandhra.org
+Ann Arbor,TRUE,"4800, East Huron River Drive, Ann Arbor, MI, 48105, United States","{
+  ""geo"": {
+    ""lat"": ""42.2628413"",
+    ""long"": ""-83.6642584""
+  }
+}","Michigan,USA-Mid West",sirivahini.konuru@manabadi.siliconandhra.org
+"Edinburgh-Scotland, UK",TRUE,"7 Weavers Knowe Crescent, Currie, Scotland EH14 5PJ, United Kingdom","{
+  ""geo"": {
+    ""lat"": ""55.8989902"",
+    ""long"": ""-3.3138198999999986""
+  }
+}",Scotland,himabindu.jayanti@manabadi.siliconandhra.org
+Bellevue Manabadi,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Davis CA,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Tracy,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+East bay Livermore,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Natomas - Sacramento,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Country Club Elementary,FALSE,,"{
+  ""geo"": null
+}",USA-West,
+Davis Center,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Redmond/Seattle,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Campbell/Saratoga,FALSE,,"{
+  ""geo"": null
+}",USA-West,"vani.gundlapalli@manabadi.siliconandhra.org,deenababu.kondubhatla@manabadi.siliconandhra.org"
+Diamond Bar,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Santa Clara,TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Highland Ranch - Denver  (Colorado),TRUE,,"{
+  ""geo"": null
+}",USA-West,
+Redlands,TRUE,"1119 Alexis Lane,Redlands,CA 92374","{
+  ""geo"": {
+    ""lat"": ""34.0826478"",
+    ""long"": ""-117.1662488""
+  }
+}",USA-West,"mohan.katragadda@manabadi.siliconandhra.org,sangeetha.lanka@manabadi.siliconandhra.org"
+Mountain View,TRUE,TBD,"{
+  ""geo"": {
+    ""lat"": ""37.3921075"",
+    ""long"": ""-122.05587679999996""
+  }
+}",USA-West,"sridevi.ganti@manabadi.siliconandhra.org,raju.chamarthi@manabadi.siliconandhra.org"
+Los Angeles,TRUE,10711 Rose Avenue los Angeles,"{
+  ""geo"": {
+    ""lat"": ""34.02695409999999"",
+    ""long"": ""-118.41378409999999""
+  }
+}",USA-West,"danji.thotapalli@manabadi.siliconandhra.org,mohan.katragadda@manabadi.siliconandhra.org,pradeep.vadarevu@manabadi.siliconandhra.org"
+Portland - Christ United Methodist Church,TRUE,"12755, Northwest Dogwood Street, Portland, OR, 97229, United States","{
+  ""geo"": {
+    ""lat"": ""45.5271765"",
+    ""long"": ""-122.80915479999999""
+  }
+}",USA-West,yagnajyothy.vemuri@manabadi.siliconandhra.org
+Colorado Springs,TRUE,"12603, Timberglen Terrace, Colorado Springs, CO, 80921, United States","{
+  ""geo"": {
+    ""lat"": ""39.015194"",
+    ""long"": ""-104.79867100000001""
+  }
+}",USA-West,sandhya.karamsetty@manabadi.siliconandhra.org
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,"California, United States","{
+  ""geo"": {
+    ""lat"": ""36.778261"",
+    ""long"": ""-119.41793239999998""
+  }
+}",USA-West,
+Fremont South,TRUE,"41717 Palm Avenue, Fremont, CA, United States","{
+  ""geo"": {
+    ""lat"": ""37.5444113"",
+    ""long"": ""-121.93428069999999""
+  }
+}",USA-West,
+Fremont South,TRUE,"41717 Palm Avenue, Fremont, CA, United States","{
+  ""geo"": {
+    ""lat"": ""37.5444113"",
+    ""long"": ""-121.93428069999999""
+  }
+}",USA-West,"krishnajayanthi.kotni@manabadi.siliconandhra.org,sridevi.ganti@manabadi.siliconandhra.org"
+Boise,TRUE,"4333 E Arborvitae DR, Boise, ID 83716","{
+  ""geo"": {
+    ""lat"": ""43.546035"",
+    ""long"": ""-116.13023759999999""
+  }
+}",USA-West,"sandhya.kistupati@manabadi.siliconandhra.org,anilkumar.akuleti@manabadi.siliconandhra.org"
+Dummy,TRUE,"Hyderabad, Telangana, India","{
+  ""geo"": {
+    ""lat"": ""17.385044"",
+    ""long"": ""78.486671""
+  }
+}",USA-West,sarma.adithe@manabadi.siliconandhra.org
+Intinta ManaBadi(Online Every Saturday) - CST,TRUE,"El Paso, TX, United States","{
+  ""geo"": {
+    ""lat"": ""31.7618778"",
+    ""long"": ""-106.4850217""
+  }
+}",USA-West,"bhaskar.rayavaram@manabadi.siliconandhra.org,padmini.paduchuri@manabadi.siliconandhra.org"
+Intinta ManaBadi(Online Every Saturday) - PST,TRUE,"Bakersfield, CA, United States","{
+  ""geo"": {
+    ""lat"": ""35.3732921"",
+    ""long"": ""-119.01871249999999""
+  }
+}",USA-West,"bhaskar.rayavaram@manabadi.siliconandhra.org,padmini.paduchuri@manabadi.siliconandhra.org"
+Fresno - Clovis,TRUE,"7366 E Flint Way, Fresno, CA 93737, USA","{
+  ""geo"": {
+    ""lat"": ""36.787915"",
+    ""long"": ""-119.658553""
+  }
+}",USA-West,praveen.yellinedi@manabadi.siliconandhra.org
+Chino Hills,TRUE,"5816, Brushwood Court, Chino Hills, CA, 91709, United States","{
+  ""geo"": {
+    ""lat"": ""33.9505504"",
+    ""long"": ""-117.67824439999998""
+  }
+}",USA-West,"dileep.madireddy@manabadi.siliconandhra.org,pradeepa.mandapaka1@manabadi.siliconandhra.org"
+Glendora-Covina,TRUE,"177, East Covina Boulevard, Covina, CA, 91722, United States","{
+  ""geo"": {
+    ""lat"": ""34.0996164"",
+    ""long"": ""-117.88825880000002""
+  }
+}",USA-West,"ahalya.nalla@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org"
+Las Vegas - Henderson,TRUE,"9731 S Eastern Ave, Las Vegas, NV 89183, USA","{
+  ""geo"": {
+    ""lat"": ""36.0121486"",
+    ""long"": ""-115.12252699999999""
+  }
+}",USA-West,ravishankar.yellajosula@manabadi.siliconandhra.org
+Denver,TRUE,"16082, East Aberdeen Avenue, Centennial, CO, 80016, United States","{
+  ""geo"": {
+    ""lat"": ""39.607964"",
+    ""long"": ""-104.80168600000002""
+  }
+}",USA-West,lakshmi.talanki@manabadi.siliconandhra.org
+Dougherty Elementary School,FALSE,,"{
+  ""geo"": {
+    ""lat"": ""41.7481"",
+    ""long"": ""88.1656""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,On Line,"{
+  ""geo"": {
+    ""lat"": ""41.7481"",
+    ""long"": ""88.1656""
+  }
+}",USA-West,
+Intinta ManaBadi(On Line Every Saturday) - PST,TRUE,On Line,"{
+  ""geo"": {
+    ""lat"": ""41.7481"",
+    ""long"": ""88.1656""
+  }
+}",USA-West,
+Longmont,TRUE,"5839 Westerly Pl, Longmont, CO 80503, USA","{
+  ""geo"": {
+    ""lat"": ""40.1460958"",
+    ""long"": ""-105.1771471""
+  }
+}",USA-West,"aruna.gundavarapu@manabadi.siliconandhra.org,nagreddy.gorla@manabadi.siliconandhra.org"
+Livermore,TRUE,"133 Misty Circle, Livermore, CA 94550","{
+  ""geo"": {
+    ""lat"": ""37.7004634"",
+    ""long"": ""-121.71752200000003""
+  }
+}",USA-West,"venkatesh.varadha@manabadi.siliconandhra.org,sridevi.ganti@manabadi.siliconandhra.org"
+Montebello,TRUE,"618, Howard Avenue, Montebello, CA, 90640, United States","{
+  ""geo"": {
+    ""lat"": ""34.020675799999992"",
+    ""long"": ""-118.10928530000001""
+  }
+}",USA-West,"sarvani.vanga@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org"
+Thousand Oaks (Goebel Senior Adult Center),TRUE,"1385, East Janss Road, Thousand Oaks, CA, 91362, United States","{
+  ""geo"": {
+    ""lat"": ""34.2008501"",
+    ""long"": ""-118.85383939999997""
+  }
+}",USA-West,"dileep.madireddy@manabadi.siliconandhra.org,siddu.yadalla@manabadi.siliconandhra.org"
+Torrance,TRUE,"3455, Torrance Boulevard, Torrance, CA, 90503, United States","{
+  ""geo"": {
+    ""lat"": ""33.8377793"",
+    ""long"": ""-118.3459947""
+  }
+}","USA-West,LA","vishnupriya.vemuri@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org,krishna.kakatur@manabadi.siliconandhra.org"
+Upland/Rancho Cucamonga,TRUE,"9791 Arrow Route, Rancho Cucamonga, CA 91730, USA","{
+  ""geo"": {
+    ""lat"": ""34.098654"",
+    ""long"": ""-117.59145089999998""
+  }
+}","USA-West,LA",dileep.madireddy@manabadi.siliconandhra.org
+Culver City,TRUE,"4117 Overland Ave, Culver City, CA 90230, USA","{
+  ""geo"": {
+    ""lat"": ""34.012952"",
+    ""long"": ""-118.4025269""
+  }
+}","USA-West,LA","radhakrishna.mamidibathula@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org"
+Oak Park,TRUE,"5450, Churchwood Drive, Oak Park, CA, 91377, United States","{
+  ""geo"": {
+    ""lat"": ""34.1798168"",
+    ""long"": ""-118.77510080000002""
+  }
+}","USA-West,LA","dileep.madireddy@manabadi.siliconandhra.org,sirisha.potluri@manabadi.siliconandhra.org"
+Placentia,TRUE,"18200, Yorba Linda Boulevard, Yorba Linda, CA, 92866, United States","{
+  ""geo"": {
+    ""lat"": ""33.888265099999991"",
+    ""long"": ""-117.81541570000002""
+  }
+}","USA-West,LA","dileep.madireddy@manabadi.siliconandhra.org,radhika.golla@manabadi.siliconandhra.org"
+Hollywood (Kings Learning Center),TRUE,"5322, Wilshire Boulevard, Los Angeles, CA, 90036, United States","{
+  ""geo"": {
+    ""lat"": ""34.062032999999992"",
+    ""long"": ""-118.34486049999998""
+  }
+}","USA-West,LA","dileep.madireddy@manabadi.siliconandhra.org,chakri.badabagni@manabadi.siliconandhra.org"
+Livermore,TRUE,"5280 Irene Way, Livermore, CA 94550, USA","{
+  ""geo"": {
+    ""lat"": ""37.684367699999989"",
+    ""long"": ""-121.72847200000001""
+  }
+}","USA-West,North Cal",kumar.tadikamalla@manabadi.siliconandhra.org
+Cupertino (Fremont High School),TRUE,"575 W Fremont Ave, Sunnyvale, CA 94087, USA","{
+  ""geo"": {
+    ""lat"": ""37.3526157"",
+    ""long"": ""-122.03499979999998""
+  }
+}","USA-West,North Cal","ratnamala.vanka@manabadi.siliconandhra.org,pavankumar.adiraju@manabadi.siliconandhra.org,punita.ojha@manabadi.siliconandhra.org"
+San Rafael,TRUE,"4221 Shelter Bay Ave, Mill Valley, CA 94941, USA","{
+  ""geo"": {
+    ""lat"": ""37.891951"",
+    ""long"": ""-122.519137""
+  }
+}","USA-West,North Cal",mukund.gorla@manabadi.siliconandhra.org
+Natomas - Sacramento,TRUE,"180 Vista Cove Cir, Sacramento, CA 95835, USA","{
+  ""geo"": {
+    ""lat"": ""38.6596003"",
+    ""long"": ""-121.54409190000001""
+  }
+}","USA-West,North Cal","bhaskar.vempati@manabadi.siliconandhra.org,usha.mandadi@manabadi.siliconandhra.org"
+Fremont South (Mission San Jose High School),TRUE,"41717, Palm Avenue, Fremont, CA, 94539, United States","{
+  ""geo"": {
+    ""lat"": ""37.5442976"",
+    ""long"": ""-121.93379800000002""
+  }
+}","USA-West,North Cal",sridevi.ganti@manabadi.siliconandhra.org
+Roseville - Sacramento,TRUE,"5145 Topaz Ave, Rocklin, CA 95677, United States","{
+  ""geo"": {
+    ""lat"": ""38.792736"",
+    ""long"": ""-121.25223800000003""
+  }
+}","USA-West,North Cal","sridevi.ganti@manabadi.siliconandhra.org,bhaskar.vempati@manabadi.siliconandhra.org"
+Folsom-Sacramento,TRUE,"735, Halidon Way, Folsom, CA, 95630, United States","{
+  ""geo"": {
+    ""lat"": ""38.650160000000007"",
+    ""long"": ""-121.131887""
+  }
+}","USA-West,North Cal","nag.dondapati@manabadi.siliconandhra.org,sridevi.ganti@manabadi.siliconandhra.org"
+Fremont North (American High School),TRUE,"36300 Fremont Blvd, Fremont, CA 94536, USA","{
+  ""geo"": {
+    ""lat"": ""37.5644828"",
+    ""long"": ""-122.0164373""
+  }
+}","USA-West,North Cal","vandana.ginjupalli@manabadi.siliconandhra.org,sridevi.ganti@manabadi.siliconandhra.org"
+Mountain House,TRUE,"Mountain House High School, 1090 Central Pkwy, Mountain House, CA, United States","{
+  ""geo"": {
+    ""lat"": ""37.7647543"",
+    ""long"": ""-121.54643620000002""
+  }
+}","USA-West,North Cal","venu.kala@manabadi.siliconandhra.org,swetha.pallapothu@manabadi.siliconandhra.org"
+Rancho Cordova - Robert J. McGarvey Elementary School,TRUE,"Sophistry Dr, Rancho Cordova, CA 95742, USA","{
+  ""geo"": {
+    ""lat"": ""38.5450755"",
+    ""long"": ""-121.23256329999998""
+  }
+}","USA-West,North Cal","dinakar.gundimeda@manabadi.siliconandhra.org,bhaskar.vempati@manabadi.siliconandhra.org"
+"San Diego L3 (4S-Ranch, Poway)",TRUE,"10720 Thornmint Rd, San Diego, CA 92127, United States","{
+  ""geo"": {
+    ""lat"": ""33.018225"",
+    ""long"": ""-117.10569299999997""
+  }
+}","USA-West,San Diego","rajyalakshmi.addepalli@manabadi.siliconandhra.org,venkatamahesh.koya@manabadi.siliconandhra.org"
+San Diego Center,TRUE,"9230, Gold Coast Drive, San Diego, CA, 92126, United States","{
+  ""geo"": {
+    ""lat"": ""32.9068952"",
+    ""long"": ""-117.1254755""
+  }
+}","USA-West,San Diego","rajyalakshmi.addepalli@manabadi.siliconandhra.org,venkatamahesh.koya@manabadi.siliconandhra.org"
+Richmond,TRUE,"6051, Springfield Road, Glen Allen, VA, 23060, United States","{
+  ""geo"": {
+    ""lat"": ""37.669886000000012"",
+    ""long"": ""-77.539286""
+  }
+}","Virginia,USA-South East","ramaprasad.suribhotla@manabadi.siliconandhra.org,padmaja.dhanalakota@manabadi.siliconandhra.org"
+"Roanoke,VA",TRUE,"6335, Sandhurst Drive, Cave Spring, VA, 24018, United States","{
+  ""geo"": {
+    ""lat"": ""37.222284"",
+    ""long"": ""-80.041428900000028""
+  }
+}","Virginia,USA-South East",bush.kavuru@manabadi.siliconandhra.org
+Gainsville - Bristow (Manassas - Haymarket),TRUE,"10844 Clara Barton Dr, Bristow, Virginia 20136, United States","{
+  ""geo"": {
+    ""lat"": ""38.7210912"",
+    ""long"": ""-77.555668500000024""
+  }
+}","Virginia,USA-South East",madhuri.dasari@manabadi.siliconandhra.org
+Chantilly - Franklin Middle School,TRUE,"3300, Lees Corner Road, Chantilly, VA, 20151, United States","{
+  ""geo"": {
+    ""lat"": ""38.9071034"",
+    ""long"": ""-77.42050949999998""
+  }
+}","Virginia,USA-South East","giri.kosaraju@manabadi.siliconandhra.org,raj.kovvali@manabadi.siliconandhra.org"
+Tysons Area (Marshall High School--Falls Church / McLean / Vienna),TRUE,"7731 Leesburg Pike, Falls Church, VA 22043, USA","{
+  ""geo"": {
+    ""lat"": ""38.905143500000008"",
+    ""long"": ""-77.212874399999976""
+  }
+}","Virginia,USA-South East","punita.ojha@manabadi.siliconandhra.org,chandra.bhimaraju@manabadi.siliconandhra.org"
+"Canberra, Australia",TRUE,,"{
+  ""geo"": null
+}",Australia,
+Hong Kong (HKSAR),TRUE,,"{
+  ""geo"": null
+}",Hong Kong,
+Central Fremont,TRUE,"Fremont Adult and Continuing Education, 4700 Calaveras Ave, Fremont, CA 94538","{
+  ""geo"": {
+    ""lat"": ""37.538422999999987"",
+    ""long"": ""-121.9910691""
+  }
+}","North Cal,USA-West",suneela.pavuluru@manabadi.siliconandhra.org
+Foster City,TRUE,"3080 La Selva St, San Mateo, CA 94403, United States","{
+  ""geo"": {
+    ""lat"": ""37.5437589"",
+    ""long"": ""-122.28494069999999""
+  }
+}","North Cal,USA-West",veerendra.munugalavadla@manabadi.siliconandhra.org
+Walnut Creek - Pittsburg,TRUE,"462 Windwood Dr, Pittsburg, CA 94565, USA","{
+  ""geo"": {
+    ""lat"": ""38.0073898"",
+    ""long"": ""-121.94488910000001""
+  }
+}","North Cal,USA-West",sudheera.sivakumar@manabadi.siliconandhra.org
+Dublin,TRUE,"3601 Kohnen Way, Dublin, CA, United States","{
+  ""geo"": {
+    ""lat"": ""37.7158491"",
+    ""long"": ""-121.8662051""
+  }
+}","North Cal,USA-West","ravi.kuchibhotla@manabadi.siliconandhra.org,prashanthi.mocherla@manabadi.siliconandhra.org"
+El Dorado Hills,TRUE,"2658 Cobble Rock Way, El Dorado Hills, CA 95762, USA","{
+  ""geo"": {
+    ""lat"": ""38.626087"",
+    ""long"": ""-121.04521190000003""
+  }
+}","North Cal,USA-West","sridevi.ganti@manabadi.siliconandhra.org,haritha.yarlagadda@manabadi.siliconandhra.org"
+San Ramon,TRUE,"1050 Trumpet Vine Ln, San Ramon, CA 94582, USA","{
+  ""geo"": {
+    ""lat"": ""37.7520313"",
+    ""long"": ""-121.91878880000002""
+  }
+}","North Cal,USA-West",chakrapani.madaraju@manabadi.siliconandhra.org
+San Jose/ Evergreen,TRUE,"3300, Quimby Road, San Jose, CA, 95148, United States","{
+  ""geo"": {
+    ""lat"": ""37.3229422"",
+    ""long"": ""-121.77895810000001""
+  }
+}","North Cal,USA-West",lakshmi.yanamandala@manabadi.siliconandhra.org
+Milpitas,TRUE,"1521 California Cir, Milpitas, CA 95035, USA","{
+  ""geo"": {
+    ""lat"": ""37.451035"",
+    ""long"": ""-121.92095519999998""
+  }
+}","North Cal,USA-West",anupama.nakka@manabadi.siliconandhra.org
+Pleasanton,TRUE,"4375 Foothill Road, Pleasanton, CA, United States","{
+  ""geo"": {
+    ""lat"": ""37.6717472"",
+    ""long"": ""-121.91936099999998""
+  }
+}","North Cal,USA-West",madhavi.desu@manabadi.siliconandhra.org
+"San Diego L2 (Carmel Valley, Sorrento Valley, Del",TRUE,"10720 Thornmint Rd, San Diego, CA 92127, USA","{
+  ""geo"": {
+    ""lat"": ""33.018225"",
+    ""long"": ""-117.10569299999997""
+  }
+}","San Diego,USA-West","rajyalakshmi.addepalli@manabadi.siliconandhra.org,venkatamahesh.koya@manabadi.siliconandhra.org"
+"San Diego L4 (Carlsbad, Vista, San Marcos)",TRUE,"6226, paseo colina, Carlsbad, CA, 92009, United States","{
+  ""geo"": {
+    ""lat"": ""33.124077"",
+    ""long"": ""-117.24449900000002""
+  }
+}","San Diego,USA-West","rajyalakshmi.addepalli@manabadi.siliconandhra.org,anu.vadlamudi@manabadi.siliconandhra.org"
+"SINDA, Singapore",TRUE,,"{
+  ""geo"": null
+}",Singapore,
+"Eindhoven, Netherlands",TRUE,,"{
+  ""geo"": null
+}",Netherlands,srini.ippili1@manabadi.siliconandhra.org
+Auckland,TRUE,,"{
+  ""geo"": null
+}",New Zealand,
+Zurich -Switzerland,TRUE,"Schwandenacker 42, 8052 Zürich, Switzerland","{
+  ""geo"": {
+    ""lat"": ""47.4248672"",
+    ""long"": ""8.5358028000000559""
+  }
+}",Switzerland,lakshmikiranmai.avadhanula@manabadi.siliconandhra.org
+Phoenix (Peoria),TRUE,"9902 W Yearling Rd, Peoria, AZ 85383, USA","{
+  ""geo"": {
+    ""lat"": ""33.7186377"",
+    ""long"": ""-112.27284810000003""
+  }
+}","Phoenix - AZ,USA-South West",neelima.tiruvuri@manabadi.siliconandhra.org
+Phoenix-Gilbert/Queen Creek,TRUE,"900 E Pecos Rd, Chandler, AZ 85225, USA","{
+  ""geo"": {
+    ""lat"": ""33.292435699999992"",
+    ""long"": ""-111.82709520000003""
+  }
+}","Phoenix - AZ,USA-South West","neelima.tiruvuri@manabadi.siliconandhra.org,madhavi.mogusala@manabadi.siliconandhra.org"
+Scottsdale,TRUE,"Sonoran Sky Elementary School 12990 N. 75th Street, Scottsdale, AZ 85260","{
+  ""geo"": {
+    ""lat"": ""33.602699"",
+    ""long"": ""-111.92070799999999""
+  }
+}","Phoenix - AZ,USA-South West","neelima.tiruvuri@manabadi.siliconandhra.org,ravi.kesiraju@manabadi.siliconandhra.org"
+Phoenix - East Valley (Tempe/Chandler),TRUE,"739 West Erie Street, Chandler, AZ 85225, United States","{
+  ""geo"": {
+    ""lat"": ""33.3094153"",
+    ""long"": ""-111.85335959999998""
+  }
+}","Phoenix - AZ,USA-South West",raghunandan.konuru@manabadi.siliconandhra.org
+"Jeddah, Saudi Arabia",TRUE,"Makkah - Jeddah Highway, Jeddah, Makkah Province, Saudi Arabia","{
+  ""geo"": {
+    ""lat"": ""21.4234806"",
+    ""long"": ""39.315553799999975""
+  }
+}",Saudi Arabia,vijayalakshmi.lakkapragada1@manabadi.siliconandhra.org
+"Randburg, South Africa",TRUE,,"{
+  ""geo"": null
+}",South Africa,
+Johannesburg (Jingle Bells Pre-School),TRUE,"35, Bekker Road, Midrand, GP, 1686, South Africa","{
+  ""geo"": {
+    ""lat"": ""-26.0112095"",
+    ""long"": ""28.1131709""
+  }
+}",South Africa,ramu.thota@manabadi.siliconandhra.org
+Shelby Township,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+Livonia,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,"srini.thonta@manabadi.siliconandhra.org,praveena.vellanki@manabadi.siliconandhra.org,sridhar.srigiriraju@manabadi.siliconandhra.org"
+"St. Louis County Library, Daniel Broone Branch",TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+Eden Prairie old,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,jayaram.nallamothu@manabadi.siliconandhra.org
+Minneapolis/St.Paul,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,saritha.allam@manabadi.siliconandhra.org
+Troy North Friday,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+Springfield,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+Fort Wayne,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+"Holland,MI",TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+Woodbury,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+Omaha,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+St. CharlesMO,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+"Milwaukee, WI",TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,laxmi.vunguturi@manabadi.siliconandhra.org
+Saginaw,TRUE,,"{
+  ""geo"": null
+}",USA-Mid West,
+Ballwin - St. Louis (The Hindu Temple Cultural Center),TRUE,"725 Weidman Rd, Ballwin, MO 63011, USA","{
+  ""geo"": {
+    ""lat"": ""38.6148089"",
+    ""long"": ""-90.499068599999987""
+  }
+}",USA-Mid West,"vasantha.vemireddy@manabadi.siliconandhra.org,srivalli.chaganti@manabadi.siliconandhra.org"
+Madison East - Sun Prairie,TRUE,"1251 O'Keeffe Avenue, Sun Prairie, WI 53590, United States","{
+  ""geo"": {
+    ""lat"": ""43.165201"",
+    ""long"": ""-89.254053""
+  }
+}",USA-Mid West,"haritha.rajula@manabadi.siliconandhra.org,vijaya.kotharu@manabadi.siliconandhra.org"
+Indianapolis,TRUE,"14354 Overbrook Dr, Carmel, IN, United States","{
+  ""geo"": {
+    ""lat"": ""39.9959463"",
+    ""long"": ""-86.230314099999987""
+  }
+}",USA-Mid West,sulochana.katukam@manabadi.siliconandhra.org
+"Prior Lake, MN",TRUE,"15272, Wood Duck Trail Northwest, Prior Lake, MN, 55372, United States","{
+  ""geo"": {
+    ""lat"": ""44.7280022"",
+    ""long"": ""-93.456363300000021""
+  }
+}",USA-Mid West,"venkat.muppidi@manabadi.siliconandhra.org,venkat.thota@manabadi.siliconandhra.org"
+Solon,TRUE,"33552 Aurora Rd, Solon, OH 44139, USA","{
+  ""geo"": {
+    ""lat"": ""41.3845864"",
+    ""long"": ""-81.4405246""
+  }
+}",USA-Mid West,srinivas.gogisetty@manabadi.siliconandhra.org
+Woodbury,TRUE,"732 Lake Ridge Dr, Woodbury, MN 55129, United States","{
+  ""geo"": {
+    ""lat"": ""44.938025"",
+    ""long"": ""-92.891163""
+  }
+}",USA-Mid West,"lalithasowjanya.jagupilla@manabadi.siliconandhra.org,harini.chukka@manabadi.siliconandhra.org,jayaram.nallamothu@manabadi.siliconandhra.org,venkat.thota@manabadi.siliconandhra.org"
+Appleton - Green Bay,TRUE,"911 Delanglade St, Kaukauna, WI 54130, USA","{
+  ""geo"": {
+    ""lat"": ""44.2933227"",
+    ""long"": ""-88.26672480000002""
+  }
+}",USA-Mid West,"praveen.gangasani@manabadi.siliconandhra.org,vijaya.kotharu@manabadi.siliconandhra.org"
+Rochester,TRUE,"1341, Century Point Lane Northeast, Rochester, MN, 55906, United States","{
+  ""geo"": {
+    ""lat"": ""44.035379999999989"",
+    ""long"": ""-92.424988999999982""
+  }
+}",USA-Mid West,"sheela.seetamsetty@manabadi.siliconandhra.org,venkat.thota@manabadi.siliconandhra.org"
+Madison West,TRUE,"7118 Old Sauk Rd, Madison, Wisconsin 53717, United States","{
+  ""geo"": {
+    ""lat"": ""43.0761565"",
+    ""long"": ""-89.5062168""
+  }
+}",USA-Mid West,"srinivas.bareddi@manabadi.siliconandhra.org,vijaya.kotharu@manabadi.siliconandhra.org"
+Kansas City,TRUE,"13775 W 133rd St, Olathe, KS 66062, USA","{
+  ""geo"": {
+    ""lat"": ""38.887070299999991"",
+    ""long"": ""-94.746956000000011""
+  }
+}",USA-Mid West,pravina.adusumilli@manabadi.siliconandhra.org
+Cleveland,TRUE,"4406 Brecksville Road, Richfield, Ohio 44286, United States","{
+  ""geo"": {
+    ""lat"": ""41.255092700000013"",
+    ""long"": ""-81.6366602""
+  }
+}",USA-Mid West,"venkatasurendra.goud@manabadi.siliconandhra.org,srinivas.gogisetty@manabadi.siliconandhra.org"
+Greenwood,TRUE,"11, Declaration Drive, Greenwood, IN, 46143, United States","{
+  ""geo"": {
+    ""lat"": ""39.582591099999988"",
+    ""long"": ""-86.102710800000011""
+  }
+}",USA-Mid West,pavan.kakaraparthi@manabadi.siliconandhra.org
+Columbus - OH,TRUE,"2480 W Dublin Granville Rd, Columbus, OH 43229, USA","{
+  ""geo"": {
+    ""lat"": ""40.0907803"",
+    ""long"": ""-83.0560218""
+  }
+}",USA-Mid West,"srinivas.boddu@manabadi.siliconandhra.org,srinivas.gogisetty@manabadi.siliconandhra.org"
+Cincinnati - Mason,TRUE,"3716 Acadia Lane, Lebanon, OH 45036, USA","{
+  ""geo"": {
+    ""lat"": ""39.382428"",
+    ""long"": ""-84.270001999999977""
+  }
+}",USA-Mid West,"bharathi.potluri@manabadi.siliconandhra.org,swarupa.koneru@manabadi.siliconandhra.org,srinivas.gogisetty@manabadi.siliconandhra.org"
+Mason,TRUE,"3716 Acadia ln, Mason, OH 45036","{
+  ""geo"": {
+    ""lat"": ""41.7481"",
+    ""long"": ""88.1656""
+  }
+}",USA-Mid West,
+Mason,TRUE,"3716 Acadia ln, Mason, OH 45036","{
+  ""geo"": {
+    ""lat"": ""41.7481"",
+    ""long"": ""88.1656""
+  }
+}",USA-Mid West,
+Cedar Rapids,TRUE,,"{
+  ""geo"": {
+    ""lat"": ""41.7481"",
+    ""long"": ""88.1656""
+  }
+}",USA-Mid West,archana.vanaparthi@manabadi.siliconandhra.org
+Newburgh,TRUE,"Newburgh, IN, 47630, United States","{
+  ""geo"": {
+    ""lat"": ""37.9444882"",
+    ""long"": ""-87.405286499999988""
+  }
+}",USA-Mid West,sridevi.ravipati@manabadi.siliconandhra.org
+Lakeville,TRUE,"16200, Dodd Lane, Lakeville, MN, 55044, United States","{
+  ""geo"": {
+    ""lat"": ""44.712782"",
+    ""long"": ""-93.181345999999962""
+  }
+}",USA-Mid West,venkat.thota@manabadi.siliconandhra.org
+St. Louis - O'Fallon,TRUE,"Child of God Church and School, 650 Salt Lick Rd, St Peters, MO 63376, USA","{
+  ""geo"": {
+    ""lat"": ""38.788704"",
+    ""long"": ""-90.660531999999989""
+  }
+}",USA-Mid West,ramya.kolluru@manabadi.siliconandhra.org
+MiddleBurg Heights,TRUE,"16189 Sheldon Rd, Cleveland, OH 44130, United States","{
+  ""geo"": {
+    ""lat"": ""41.3879075"",
+    ""long"": ""-81.8120275""
+  }
+}",USA-Mid West,srinivas.gogisetty@manabadi.siliconandhra.org
+Eden Prairie,TRUE,"8025 School Rd, Eden Prairie, MN 55344, USA","{
+  ""geo"": {
+    ""lat"": ""44.8572313"",
+    ""long"": ""-93.47681990000001""
+  }
+}",USA-Mid West,"saritha.yerapotina@manabadi.siliconandhra.org,jayaram.nallamothu@manabadi.siliconandhra.org,venkat.thota@manabadi.siliconandhra.org"
+Newburgh IN,TRUE,"6299, Oak Grove Road, Newburgh, IN, 47630, United States","{
+  ""geo"": {
+    ""lat"": ""37.989377999999988"",
+    ""long"": ""-87.364713""
+  }
+}",USA-Mid West,sridevi.ravipati@manabadi.siliconandhra.org
+Plymouth/Maple Grove,TRUE,"10530, Troy Lane North, Maple Grove, MN, 55311, United States","{
+  ""geo"": {
+    ""lat"": ""45.146391"",
+    ""long"": ""-93.511027399999989""
+  }
+}",USA-Mid West,"jayaram.nallamothu@manabadi.siliconandhra.org,venkat.thota@manabadi.siliconandhra.org"
+Columbus Indiana,TRUE,"618 8th St, Columbus, IN 47201","{
+  ""geo"": {
+    ""lat"": ""39.207180099999988"",
+    ""long"": ""-85.9183921""
+  }
+}",USA-Mid West,"anita.pathuri@manabadi.siliconandhra.org,srinivas.gogisetty@manabadi.siliconandhra.org"
+Milwaukee - Waukesha - Pewaukee,TRUE,"Brookfield Lutheran Church, 18500 Burleigh Road, Brookfield, WI 53045","{
+  ""geo"": {
+    ""lat"": ""43.0765448"",
+    ""long"": ""-88.14190769999999""
+  }
+}",USA-Mid West,"gayatri.goduguchinta@manabadi.siliconandhra.org,vijaya.kotharu@manabadi.siliconandhra.org"
+Farmington Hills (Sringeri Vidya Bharati Foundatio,TRUE,"Farmington Hills, MI, USA","{
+  ""geo"": {
+    ""lat"": ""42.4989936"",
+    ""long"": ""-83.367716799999982""
+  }
+}",USA-Mid West,"srini.thonta@manabadi.siliconandhra.org,srinivasraju.dhenuvakonda@manabadi.siliconandhra.org,sridhar.srigiriraju@manabadi.siliconandhra.org"
+Bloomington - Normal,TRUE,"2416 East Washington Street, Bloomington, IL 61704, United States","{
+  ""geo"": {
+    ""lat"": ""40.480296500000009"",
+    ""long"": ""-88.9473979""
+  }
+}","USA-Mid West,Illinois",sindhura.annavarapu@manabadi.siliconandhra.org
+City of Chicago & Chicago Downtown - Shivalya Hindu Cultural Center,TRUE,"318 W Grand Ave, Chicago, IL 60654, USA","{
+  ""geo"": {
+    ""lat"": ""41.891698999999988"",
+    ""long"": ""-87.636342000000013""
+  }
+}","USA-Mid West,Illinois","jyotsna.yanjarlapati@manabadi.siliconandhra.org,sireesha.perepu@manabadi.siliconandhra.org"
+Peoria,TRUE,"7620, North University Street, Peoria, IL, 61614, United States","{
+  ""geo"": {
+    ""lat"": ""40.7804301"",
+    ""long"": ""-89.620179600000029""
+  }
+}","USA-Mid West,Illinois",kranthi.kothamachu@manabadi.siliconandhra.org
+Palatine,TRUE,Countryside Church 1025 N.Smith Street Palatine IL-60067,"{
+  ""geo"": {
+    ""lat"": ""42.128964900000007"",
+    ""long"": ""-88.047578700000031""
+  }
+}","USA-Mid West,Illinois","venugopal.venkatachudamani@manabadi.siliconandhra.org,manjusha.duggirala@manabadi.siliconandhra.org"
+Buffalo Grove,TRUE,"1970, Riverwoods Road, Lincolnshire, IL, 60069, United States","{
+  ""geo"": {
+    ""lat"": ""42.1886895"",
+    ""long"": ""-87.906999000000042""
+  }
+}","USA-Mid West,Illinois","pavani.gangavarapu@manabadi.siliconandhra.org,venkat.gangavarapu@manabadi.siliconandhra.org"
+Westmont,TRUE,"117 N Cass Ave, Westmont, IL 60559, USA","{
+  ""geo"": {
+    ""lat"": ""41.798639"",
+    ""long"": ""-87.975096000000008""
+  }
+}","USA-Mid West,Illinois",lohitha.tunuguntla@manabadi.siliconandhra.org
+Bolingbrook-Plainfield,TRUE,"321, Chick Evans Street, Bolingbrook, IL, 60490, United States","{
+  ""geo"": {
+    ""lat"": ""41.6864119"",
+    ""long"": ""-88.150135900000009""
+  }
+}","USA-Mid West,Illinois",malathi.damaraju@manabadi.siliconandhra.org
+SV Temple - Novi,TRUE,"26233, Taft Road, Novi, MI, 48374, United States","{
+  ""geo"": {
+    ""lat"": ""42.482692"",
+    ""long"": ""-83.497925000000009""
+  }
+}","USA-Mid West,Michigan",madhavi.nekkanti@manabadi.siliconandhra.org
+Novi Middle School,TRUE,"49000, West 11 Mile Road, Novi, MI, 48374, United States","{
+  ""geo"": {
+    ""lat"": ""42.4809025"",
+    ""long"": ""-83.531361699999991""
+  }
+}","USA-Mid West,Michigan",yogesh.kollu@manabadi.siliconandhra.org
+"Tricity (Saginaw, Midland, & Bay City)",TRUE,"5949 Weiss St, Saginaw, MI 48603, USA","{
+  ""geo"": {
+    ""lat"": ""43.4436309"",
+    ""long"": ""-84.0325676""
+  }
+}","USA-Mid West,Michigan",nageswari.gade@manabadi.siliconandhra.org
+"Grand Blanc, MI",TRUE,"5598 Chatham Lane, Grand Blanc, MI 48439, United States","{
+  ""geo"": {
+    ""lat"": ""42.942791199999988"",
+    ""long"": ""-83.59057439999998""
+  }
+}","USA-Mid West,Michigan",padmavathi.gunda@manabadi.siliconandhra.org
+Troy North Sat (Meadows Learning Center),TRUE,"1435, Auburn Road, Rochester Hills, MI, 48309, United States","{
+  ""geo"": {
+    ""lat"": ""42.6353128"",
+    ""long"": ""-83.160568899999987""
+  }
+}","USA-Mid West,Michigan",praveen.mitta@manabadi.siliconandhra.org
+Portage - Kalamazoo,TRUE,"2002 Ramona Ave, Portage, MI 49002, USA","{
+  ""geo"": {
+    ""lat"": ""42.2207381"",
+    ""long"": ""-85.566154999999981""
+  }
+}","USA-Mid West,Michigan",srikanth.chaganti@manabadi.siliconandhra.org
+Lansing,TRUE,"1535 Franklin St, Haslett, MI 48840, USA","{
+  ""geo"": {
+    ""lat"": ""42.7429295"",
+    ""long"": ""-84.404881100000011""
+  }
+}","USA-Mid West,Michigan",naren.turimella@manabadi.siliconandhra.org
+Houston - Pearland,TRUE,"2817 Miller Ranch Road, Pearland, TX, United States","{
+  ""geo"": {
+    ""lat"": ""29.5583042"",
+    ""long"": ""-95.372416999999984""
+  }
+}","Texas (South),USA-South West","veerabhadrarao.kambala@manabadi.siliconandhra.org,surekha.ganji@manabadi.siliconandhra.org"
+Austin - Greater Austin - Saturday,TRUE,"4001 Adelphi Ln, Austin, TX 78727, United States","{
+  ""geo"": {
+    ""lat"": ""30.4223361"",
+    ""long"": ""-97.718206500000008""
+  }
+}","Texas (South),USA-South West","bhaskar.parasaram@manabadi.siliconandhra.org,veerabhadrarao.kambala@manabadi.siliconandhra.org,satyanarayanar.gollavilli@manabadi.siliconandhra.org"
+Austin - Greater Austin - Sunday,TRUE,"4001 Adelphi Ln, Austin, TX 78727, USA","{
+  ""geo"": {
+    ""lat"": ""30.4223361"",
+    ""long"": ""-97.718206500000008""
+  }
+}","Texas (South),USA-South West","bhaskar.parasaram@manabadi.siliconandhra.org,veerabhadrarao.kambala@manabadi.siliconandhra.org,satyanarayanar.gollavilli@manabadi.siliconandhra.org"
+San Antonio,TRUE,"4114 Lockhill Selma Rd, San Antonio, TX 78249, USA","{
+  ""geo"": {
+    ""lat"": ""29.572651699999991"",
+    ""long"": ""-98.564492500000028""
+  }
+}","Texas (South),USA-South West","sridevi.allam@manabadi.siliconandhra.org,usha.govindaraju@manabadi.siliconandhra.org,veerabhadrarao.kambala@manabadi.siliconandhra.org,vijaya.gosala@manabadi.siliconandhra.org"
+Houston - Sugar Land,TRUE,"800 Brooks Street, Sugar Land, TX 77478, United States","{
+  ""geo"": {
+    ""lat"": ""29.609558"",
+    ""long"": ""-95.636467900000014""
+  }
+}","Texas (South),USA-South West","vijayasree.mutyala@manabadi.siliconandhra.org,veerabhadrarao.kambala@manabadi.siliconandhra.org"
+Columbia,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Elkridge,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Bridgewater - Raritan,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Waterbury,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Jersey City,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+West Springfield,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Woodstock,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Vijaya garu\'s house,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+"Staten Island,NY",TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+YMCA Metuchen,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Somerset,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Durham,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Hamden,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Cockeysville,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+South Brunswick,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Reading,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Long Island NY,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Sykesville,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+"Milford, CT",TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+East Brunswick,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Syracuse,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Bridgewater,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Brooklyn,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Bensalem,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Hackensack,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Middletown-New Jersey,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Groton,TRUE,,"{
+  ""geo"": null
+}",USA-North East,
+Urbana - Frederick,TRUE,"11119 Hazelnut Ln, Monrovia, MD 21770, USA","{
+  ""geo"": {
+    ""lat"": ""39.3623312"",
+    ""long"": ""-77.279023""
+  }
+}",USA-North East,"mahesh.aitha@manabadi.siliconandhra.org,neeraja.guduru@manabadi.siliconandhra.org,madhuri.yenishetti@manabadi.siliconandhra.org"
+Tallapaka - A Virtual Location for BalaRanjani App,TRUE,"Eden, VT, USA","{
+  ""geo"": {
+    ""lat"": ""44.7072718"",
+    ""long"": ""-72.5456691""
+  }
+}",USA-North East,"coordinator.apptest@manabadi.siliconandhra.org,srinivas.chivaluri@manabadi.siliconandhra.org,kanyakumari.peruri@manabadi.siliconandhra.org,bhaskar.rayavaram@manabadi.siliconandhra.org,phanimadhav.kasturi@manabadi.siliconandhra.org,amar.solasa@manabadi.siliconandhra.org,vijay.ravilla@manabadi.siliconandhra.org,neelima.tiruvuri@manabadi.siliconandhra.org,venkata.didugu@manabadi.siliconandhra.org,coordinator.apptest1@manabadi.siliconandhra.org,padmini.paduchuri@manabadi.siliconandhra.org,kiran.duddagi@manabadi.siliconandhra.org,srini.thonta@manabadi.siliconandhra.org,padma.vellanki@manabadi.siliconandhra.org,venkat.gangavarapu@manabadi.siliconandhra.org,neeraja.guduru@manabadi.siliconandhra.org,rajyalakshmi.addepalli@manabadi.siliconandhra.org,ganabala.medisetti@manabadi.siliconandhra.org,mahesh.nagella@manabadi.siliconandhra.org,dushyanthanaidu.paligaram@manabadi.siliconandhra.org,ramarao.paluri@manabadi.siliconandhra.org,dileep.madireddy@manabadi.siliconandhra.org,sridhar.srigiriraju@manabadi.siliconandhra.org,gautam.kasturi@manabadi.siliconandhra.org,sridevi.ganti@manabadi.siliconandhra.org,santhi.kuchibhotla@manabadi.siliconandhra.org,danji.thotapalli@manabadi.siliconandhra.org,sneha.vedula@manabadi.siliconandhra.org,raju.chamarthi@manabadi.siliconandhra.org,sujatha.appalaneni@manabadi.siliconandhra.org,sriram.kotni@manabadi.siliconandhra.org,sarath.veta@manabadi.siliconandhra.org,srinivas.gogisetty@manabadi.siliconandhra.org"
+Middletown,TRUE,"11, Training Hill Road, Middletown, CT, 06457, United States","{
+  ""geo"": {
+    ""lat"": ""41.5396745"",
+    ""long"": ""-72.613279799999987""
+  }
+}",USA-North East,rao.yalamanchili@manabadi.siliconandhra.org
+Gaithersburg,TRUE,"345 a West Side Drive, Gaithersburg, MD 20878, United States","{
+  ""geo"": {
+    ""lat"": ""39.1253958"",
+    ""long"": ""-77.20625050000001""
+  }
+}",USA-North East,
+Boston - Shrewsbury,TRUE,"125 Turnpike Rd, Westborough, MA 01581, USA","{
+  ""geo"": {
+    ""lat"": ""42.2854197"",
+    ""long"": ""-71.604616700000008""
+  }
+}",USA-North East,"srilatha.gorla@manabadi.siliconandhra.org,kishore.dasararaju1@manabadi.siliconandhra.org"
+Portland-Scarborough,TRUE,"2 Memory Lane, Scarborough, ME 04074, United States","{
+  ""geo"": {
+    ""lat"": ""43.5973748"",
+    ""long"": ""-70.375584899999978""
+  }
+}",USA-North East,srinivasa.atragada@manabadi.siliconandhra.org
+Stamford,TRUE,"245 Selleck St, Stamford, CT 06902, United States","{
+  ""geo"": {
+    ""lat"": ""41.0415189"",
+    ""long"": ""-73.557581299999981""
+  }
+}",USA-North East,sujana.sannapureddy@manabadi.siliconandhra.org
+Hartford,TRUE,"22 Lakeshore Drive, Farmington, CT 06032, United States","{
+  ""geo"": {
+    ""lat"": ""41.744948699999988"",
+    ""long"": ""-72.855990799999972""
+  }
+}",USA-North East,rao.yalamanchili@manabadi.siliconandhra.org
+Ellicott City,TRUE,"8885 Old Frederick Road, Ellicott City, MD 21043, United States","{
+  ""geo"": {
+    ""lat"": ""39.298080800000008"",
+    ""long"": ""-76.81707080000001""
+  }
+}",USA-North East,neeraja.guduru@manabadi.siliconandhra.org
+Danbury,TRUE,"6, Tobins Court, Danbury, CT, 06810, United States","{
+  ""geo"": {
+    ""lat"": ""41.3931461"",
+    ""long"": ""-73.4197269""
+  }
+}",USA-North East,lakshmisarada.tadikonda@manabadi.siliconandhra.org
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""37.4315734"",
+    ""long"": ""-78.656894200000011""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""37.4315734"",
+    ""long"": ""-78.656894200000011""
+  }
+}",USA-North East,
+Rockville,TRUE,"1700 Mark Lane, Rockville, MD 20852, United States","{
+  ""geo"": {
+    ""lat"": ""39.0565777"",
+    ""long"": ""-77.132151499999964""
+  }
+}",USA-North East,"madhu.bellamkonda@manabadi.siliconandhra.org,neeraja.guduru@manabadi.siliconandhra.org"
+Downingtown - Exton,TRUE,"1314 Burke Road, West Chester, PA 19380, United States","{
+  ""geo"": {
+    ""lat"": ""39.9969092"",
+    ""long"": ""-75.622757900000011""
+  }
+}",USA-North East,"anil.ramachandrula@manabadi.siliconandhra.org,krishna.kari@manabadi.siliconandhra.org"
+Hicksville-Center,TRUE,"3705 Hempstead Turnpike, Levittown, NY 11756, USA","{
+  ""geo"": {
+    ""lat"": ""40.725883"",
+    ""long"": ""-73.499054199999989""
+  }
+}",USA-North East,"bhavani.kallem@manabadi.siliconandhra.org,anupama.kolluru@manabadi.siliconandhra.org"
+Westchester,TRUE,"2nd floor, 277, Martine Avenue, White Plains, NY, 10601-3401","{
+  ""geo"": {
+    ""lat"": ""40.991642"",
+    ""long"": ""-73.842886000000021""
+  }
+}",USA-North East,sudhakar.tata@manabadi.siliconandhra.org
+Trumbull,TRUE,"25, Sarenee Circle, Trumbull, CT, 06611, United States","{
+  ""geo"": {
+    ""lat"": ""41.2778534"",
+    ""long"": ""-73.232254799999964""
+  }
+}",USA-North East,rao.yalamanchili@manabadi.siliconandhra.org
+Intinta ManaBadi - (USA - Online Weekends),TRUE,"Burlington, VT, United States","{
+  ""geo"": {
+    ""lat"": ""44.4758825"",
+    ""long"": ""-73.212071999999978""
+  }
+}",USA-North East,"coordinator.apptest@manabadi.siliconandhra.org,bhaskar.rayavaram@manabadi.siliconandhra.org,coordinator.apptest1@manabadi.siliconandhra.org,padmini.paduchuri@manabadi.siliconandhra.org"
+Hauppauge (New York),TRUE,"2784 Ocean Avenue, Ronkonkoma, NY 11779, United States","{
+  ""geo"": {
+    ""lat"": ""40.814398999999987"",
+    ""long"": ""-73.125714300000027""
+  }
+}",USA-North East,"venkatakirankumar.rangu@manabadi.siliconandhra.org,padmini.paduchuri@manabadi.siliconandhra.org"
+Queens Village,TRUE,"9530 225th St, Queens Village, NY 11429, United States","{
+  ""geo"": {
+    ""lat"": ""40.7197828"",
+    ""long"": ""-73.72944050000001""
+  }
+}",USA-North East,sowjanya.kunchala@manabadi.siliconandhra.org
+Newark,TRUE,"2451 Frazer Rd, Newark, DE 19702, United States","{
+  ""geo"": {
+    ""lat"": ""39.600952000000007"",
+    ""long"": ""-75.771505999999988""
+  }
+}",USA-North East,"prathima.chava@manabadi.siliconandhra.org,sahithi.vallabhuni@manabadi.siliconandhra.org"
+Clarksburg - Boyds - Germantown,TRUE,"12213 Canterfield Terrace, Germantown, MD 20876, USA","{
+  ""geo"": {
+    ""lat"": ""39.2189376"",
+    ""long"": ""-77.2554449""
+  }
+}",USA-North East,"neeraja.guduru@manabadi.siliconandhra.org,ramana.hemadri@manabadi.siliconandhra.org,ramachandra.yarubandi@manabadi.siliconandhra.org"
+Delaware Hindu Temple,TRUE,"760 Yorklyn Road, Hockessin, DE 19707, United States","{
+  ""geo"": {
+    ""lat"": ""39.7906244"",
+    ""long"": ""-75.688144500000021""
+  }
+}",USA-North East,rama.atluri@manabadi.siliconandhra.org
+Boston - Chelmsford,TRUE,"11 Cove Street, Chelmsford, MA 01824, United States","{
+  ""geo"": {
+    ""lat"": ""42.6040496"",
+    ""long"": ""-71.339420099999984""
+  }
+}",USA-North East,"ankit.kataru@manabadi.siliconandhra.org,venatha.dammalapati@manabadi.siliconandhra.org"
+King Of Prussia,TRUE,"501 Monroe Boulevard, King of Prussia, PA 19406, United States","{
+  ""geo"": {
+    ""lat"": ""40.0934739"",
+    ""long"": ""-75.359785699999975""
+  }
+}",USA-North East,"tapesh.sharma@manabadi.siliconandhra.org,sreelatha.thatakuri@manabadi.siliconandhra.org"
+Lansdale,TRUE,"2902 Maggie Way Chalfont, PA 18914 USA","{
+  ""geo"": {
+    ""lat"": ""40.2351316"",
+    ""long"": ""-75.176316900000018""
+  }
+}",USA-North East,"satish.turlapati@manabadi.siliconandhra.org,lavanya.neti2@manabadi.siliconandhra.org"
+Walpole (Boston),TRUE,"60 Beethoven Avenue, Walpole, MA 02081, United States","{
+  ""geo"": {
+    ""lat"": ""42.120124399999987"",
+    ""long"": ""-71.292958099999964""
+  }
+}",USA-North East,srinivas.gollakota@manabadi.siliconandhra.org
+Buffalo,TRUE,"1595 North French Road, Getzville, NY 14068, United States","{
+  ""geo"": {
+    ""lat"": ""43.0341783"",
+    ""long"": ""-78.765706599999987""
+  }
+}",USA-North East,sreenivas.kune@manabadi.siliconandhra.org
+Quincy(Boston),TRUE,"33 Df Haviland LnWeymouth, MA 02188","{
+  ""geo"": {
+    ""lat"": ""42.2151037"",
+    ""long"": ""-70.9588827""
+  }
+}",USA-North East,"ankit.kataru@manabadi.siliconandhra.org,bhupathiraju.pandeti@manabadi.siliconandhra.org"
+South Windsor,TRUE,"614, Thoreau Circle, Windsor, CT, 06095, United States","{
+  ""geo"": {
+    ""lat"": ""41.885935"",
+    ""long"": ""-72.691277000000014""
+  }
+}",USA-North East,rao.yalamanchili@manabadi.siliconandhra.org
+Gaithersburg,TRUE,"Fields Road Elementary School, 1 School Dr, Gaithersburg, MD 20878","{
+  ""geo"": {
+    ""lat"": ""39.1187797"",
+    ""long"": ""-77.214975999999979""
+  }
+}",USA-North East,"neeraja.guduru@manabadi.siliconandhra.org,sailaja.mudiya@manabadi.siliconandhra.org"
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Intinta ManaBadi(Online Every Saturday) - EST,TRUE,"Augusta, Virginia, United States","{
+  ""geo"": {
+    ""lat"": ""38.2004562"",
+    ""long"": ""-79.245114899999976""
+  }
+}",USA-North East,
+Poughkeepsie,TRUE,"3 Brown Road, Wappingers Falls, NY 12590, United States","{
+  ""geo"": {
+    ""lat"": ""41.585307100000009"",
+    ""long"": ""-73.857078600000023""
+  }
+}",USA-North East,narsimha.telukuntla@manabadi.siliconandhra.org
+Rocky Hill,TRUE,"300 Cold Spring Road, Rocky Hill, CT 06067, United States","{
+  ""geo"": {
+    ""lat"": ""41.6382696"",
+    ""long"": ""-72.6840272""
+  }
+}",USA-North East,rao.yalamanchili@manabadi.siliconandhra.org
+Providence-Cumberland,TRUE,"40 Astral St, Warwick, RI 02888, USA","{
+  ""geo"": {
+    ""lat"": ""41.7373238"",
+    ""long"": ""-71.410171399999967""
+  }
+}",USA-North East,"gokul.tripurneni@manabadi.siliconandhra.org,manjula.kocherlakota@manabadi.siliconandhra.org"
+Piscataway,TRUE,"4500 New Brunswick Avenue, Piscataway Township, NJ 08854, United States","{
+  ""geo"": {
+    ""lat"": ""40.5611545"",
+    ""long"": ""-74.437375799999984""
+  }
+}","USA-North East,New Jersey (North)",shahanaz.padakula@manabadi.siliconandhra.org
+Summit - New Providence - Millburn (Synagogue - Summit),TRUE,"36 Chatham Rd, Summit, NJ 07901, USA","{
+  ""geo"": {
+    ""lat"": ""40.732178"",
+    ""long"": ""-74.37738939999997""
+  }
+}","USA-North East,New Jersey (North)",sridhar.kristipati@manabadi.siliconandhra.org
+Montgomery - Skillman,TRUE,"373 Burnt Hill Rd, Skillman, NJ 08558, United States","{
+  ""geo"": {
+    ""lat"": ""40.4282243"",
+    ""long"": ""-74.672612800000024""
+  }
+}","USA-North East,New Jersey (South)",samatha.koganti@manabadi.siliconandhra.org
+Kendall Park - South Brunswick - North Brunswick,TRUE,"57 Sand Hills Road, South Brunswick Township, NJ 08824, United States","{
+  ""geo"": {
+    ""lat"": ""40.4208625"",
+    ""long"": ""-74.557913499999984""
+  }
+}","USA-North East,New Jersey (South)",ashok.kommuri@manabadi.siliconandhra.org
+Flemington,TRUE,"16 Windsor Way, Flemington, NJ 08822, USA","{
+  ""geo"": {
+    ""lat"": ""40.5309718"",
+    ""long"": ""-74.864558100000011""
+  }
+}","USA-North East,New Jersey (South)",lakshmi.gadey@manabadi.siliconandhra.org
+Moorestown - Mt. Laurel,TRUE,"100 Mount Laurel Road, Mount Laurel, NJ 08054, United States","{
+  ""geo"": {
+    ""lat"": ""39.9582754"",
+    ""long"": ""-74.924964400000022""
+  }
+}","USA-North East,New Jersey (South)",sunitha.gunda@manabadi.siliconandhra.org
+Johns Creek,TRUE,,"{
+  ""geo"": null
+}",USA-South East,
+Baton Rouge,TRUE,,"{
+  ""geo"": null
+}",USA-South East,gopinath.gopalam@manabadi.siliconandhra.org
+Cumming,TRUE,,"{
+  ""geo"": null
+}",USA-South East,
+Charlottesville,TRUE,,"{
+  ""geo"": null
+}",USA-South East,
+Mt. Juliet,TRUE,,"{
+  ""geo"": null
+}",USA-South East,
+"Columbia, SC",TRUE,,"{
+  ""geo"": null
+}",USA-South East,
+Suwanee,TRUE,,"{
+  ""geo"": null
+}",USA-South East,
+Morgantown,TRUE,,"{
+  ""geo"": null
+}",USA-South East,
+Fort Myers,TRUE,"8293 Silver Birch Way Lehigh Acres, FL 33971","{
+  ""geo"": {
+    ""lat"": ""26.6138148"",
+    ""long"": ""-81.7603714""
+  }
+}",USA-South East,"santhi.mallampally@manabadi.siliconandhra.org,sirisha.akella@manabadi.siliconandhra.org"
+New Tampa - Best in Class Education Center (Unit C),TRUE,"10323 Cross Creek Blvd, Tampa, FL 33647, USA","{
+  ""geo"": {
+    ""lat"": ""28.143102"",
+    ""long"": ""-82.312795""
+  }
+}",USA-South East,"sireesha.katipalli@manabadi.siliconandhra.org,bharathy.yelkur@manabadi.siliconandhra.org"
+Fort Lauderdale,TRUE,"1350, Plumosa Way, Weston, FL, 33327, United States","{
+  ""geo"": {
+    ""lat"": ""26.121193"",
+    ""long"": ""-80.420903899999985""
+  }
+}",USA-South East,sireesha.gondi@manabadi.siliconandhra.org
+Charlotte South,TRUE,"17206 Lancaster Hwy, Suite 504, Charlotte, NC-28277","{
+  ""geo"": {
+    ""lat"": ""35.0274013"",
+    ""long"": ""-80.850631300000032""
+  }
+}",USA-South East,"amar.solasa@manabadi.siliconandhra.org,siva.tumuluru@manabadi.siliconandhra.org,nagasridevi.dandamudi@manabadi.siliconandhra.org"
+Jacksonville,TRUE,"4968 Greenland Rd, Jacksonville, FL 32258, USA","{
+  ""geo"": {
+    ""lat"": ""30.1609006"",
+    ""long"": ""-81.577399300000025""
+  }
+}",USA-South East,suresh.chenchala@manabadi.siliconandhra.org
+Cumming,TRUE,"829 Atlanta Hwy, Cumming, GA 30040, United States","{
+  ""geo"": {
+    ""lat"": ""34.181258600000007"",
+    ""long"": ""-84.149881999999991""
+  }
+}",USA-South East,"vijay.ravilla@manabadi.siliconandhra.org,kavitha.chinthala@manabadi.siliconandhra.org"
+Lafayette,TRUE,"201 Bluebonnet Dr, Lafayette, LA 70508, USA","{
+  ""geo"": {
+    ""lat"": ""30.1478706"",
+    ""long"": ""-92.0103134""
+  }
+}",USA-South East,swaroopa.ambatipati@manabadi.siliconandhra.org
+Brandon - Lithia,TRUE,"6315, Bridgevista Drive, Lithia, FL, 33547, United States","{
+  ""geo"": {
+    ""lat"": ""27.835542"",
+    ""long"": ""-82.215064999999981""
+  }
+}",USA-South East,parvathi.ganduri@manabadi.siliconandhra.org
+Riviera Beach,TRUE,"4152 West Blue Heron Boulevard, Riviera Beach, FL 33404, United States","{
+  ""geo"": {
+    ""lat"": ""26.784723"",
+    ""long"": ""-80.102002200000015""
+  }
+}",USA-South East,vineela.kotha@manabadi.siliconandhra.org
+Westchase,TRUE,"5509, Lynn Road, Tampa, FL, 33624, United States","{
+  ""geo"": {
+    ""lat"": ""28.044201"",
+    ""long"": ""-82.536198000000013""
+  }
+}",USA-South East,neelima.ketineni@manabadi.siliconandhra.org
+Greensboro - High point,TRUE,"Oak Ridge Presbyterian Church  2614 Oak Ridge Rd, Oak Ridge, NC 27310","{
+  ""geo"": {
+    ""lat"": ""36.1822841"",
+    ""long"": ""-79.970332900000017""
+  }
+}",USA-South East,"sushma.tata@manabadi.siliconandhra.org,amar.solasa@manabadi.siliconandhra.org,sireesha.pothabathula@manabadi.siliconandhra.org"
+Lexington (Bhartiya Temple and Cultural Center),TRUE,,"{
+  ""geo"": {
+    ""lat"": ""38.031361"",
+    ""long"": ""-84.355165199999988""
+  }
+}",USA-South East,
+Tallahassee,TRUE,"216 Nabb Loop, Tallahassee, FL 32317, USA","{
+  ""geo"": {
+    ""lat"": ""30.4586653"",
+    ""long"": ""-84.176029999999969""
+  }
+}",USA-South East,hanu.chilakala@manabadi.siliconandhra.org
+West Palm Beach,TRUE,"5106, Bright Galaxy Lane, Greenacres, FL, 33463, United States","{
+  ""geo"": {
+    ""lat"": ""26.598359"",
+    ""long"": ""-80.123410999999976""
+  }
+}",USA-South East,sirisha.akella@manabadi.siliconandhra.org
+Brentwood,TRUE,"9703, Tanglewood Lane, Brentwood, TN, 37027, United States","{
+  ""geo"": {
+    ""lat"": ""35.9819022"",
+    ""long"": ""-86.710850199999982""
+  }
+}",USA-South East,kamakshi.gudipati@manabadi.siliconandhra.org
+Apex - Triangle Math and Science Academy,TRUE,"312 Gregson Dr, Cary, NC 27511, USA","{
+  ""geo"": {
+    ""lat"": ""35.733193600000007"",
+    ""long"": ""-78.806255800000031""
+  }
+}",USA-South East,"amar.solasa@manabadi.siliconandhra.org,subbarao.meduri@manabadi.siliconandhra.org,sudheer.kothamachu@manabadi.siliconandhra.org"
+Cary - Alston Ridge Elementary School,TRUE,"11555 Green Level Church Road, Cary, NC 27519, USA","{
+  ""geo"": {
+    ""lat"": ""35.8596023"",
+    ""long"": ""-78.899047900000028""
+  }
+}",USA-South East,"amar.solasa@manabadi.siliconandhra.org,krishna.kodali1@manabadi.siliconandhra.org,srinivas.bhagavatula@manabadi.siliconandhra.org"
+Alpharetta,TRUE,"625, James Road, Alpharetta, GA, 30004, United States","{
+  ""geo"": {
+    ""lat"": ""34.1273916"",
+    ""long"": ""-84.23667039999998""
+  }
+}",USA-South East,"vijay.ravilla@manabadi.siliconandhra.org,sambasivarao.doddaka@manabadi.siliconandhra.org"
+Charlotte North,TRUE,"9545 Poplar Tent Rd, Concord, NC 28027, USA","{
+  ""geo"": {
+    ""lat"": ""35.4093568"",
+    ""long"": ""-80.736642599999982""
+  }
+}",USA-South East,"amar.solasa@manabadi.siliconandhra.org,sashi.majji@manabadi.siliconandhra.org"
+Lakeland,TRUE,"825, Summerfield Drive, Lakeland, FL, 33803, United States","{
+  ""geo"": {
+    ""lat"": ""28.005299"",
+    ""long"": ""-81.966572999999983""
+  }
+}",USA-South East,avantica.gondi@manabadi.siliconandhra.org
+Colin Powell Elementary School (FCPS),TRUE,"13340 Leland Rd, Centreville, VA 20120, USA","{
+  ""geo"": {
+    ""lat"": ""38.8453093"",
+    ""long"": ""-77.407211500000017""
+  }
+}",USA-South East,"neeraja.guduru@manabadi.siliconandhra.org,deenababu.kondubhatla@manabadi.siliconandhra.org"
+Riverdale,TRUE,"Venkateshwara temple Atlanta, 5851 GA-85, Riverdale, GA 30274, USA","{
+  ""geo"": {
+    ""lat"": ""33.595382400000013"",
+    ""long"": ""-84.408600200000024""
+  }
+}",USA-South East,"vijay.ravilla@manabadi.siliconandhra.org,srikanth.borra@manabadi.siliconandhra.org"
+Riverdale - Sunday 3:00 PM - 5:00 PM,TRUE,"Venkateshwara temple Atlanta, 5851 GA-85, Riverdale, GA 30274, USA","{
+  ""geo"": {
+    ""lat"": ""33.595382400000013"",
+    ""long"": ""-84.408600200000024""
+  }
+}",USA-South East,"vijay.ravilla@manabadi.siliconandhra.org,jyothi.chintalapudi@manabadi.siliconandhra.org,srikanth.borra@manabadi.siliconandhra.org"
+Macon,TRUE,"132 Madison North Drive, Macon, GA 31220, United States","{
+  ""geo"": {
+    ""lat"": ""32.878285000000012"",
+    ""long"": ""-83.790043999999966""
+  }
+}",USA-South East,"veera.pavuluri@manabadi.siliconandhra.org,vijay.ravilla@manabadi.siliconandhra.org"
+Huntsville,TRUE,"14840 Smith Drive, Harvest, AL 35752, United States","{
+  ""geo"": {
+    ""lat"": ""34.7697965"",
+    ""long"": ""-86.791557799999964""
+  }
+}",USA-South East,srilatha.jampala@manabadi.siliconandhra.org
+Memphis,TRUE,"3750, Hacks Cross Road, Memphis, TN, 38125, United States","{
+  ""geo"": {
+    ""lat"": ""35.0461804"",
+    ""long"": ""-89.794716100000016""
+  }
+}",USA-South East,kiran.parupudi@manabadi.siliconandhra.org
+Chattanooga,TRUE,"2346 Rivendell Ln, Chattanooga, TN 37421, USA","{
+  ""geo"": {
+    ""lat"": ""35.0406471"",
+    ""long"": ""-85.142670399999986""
+  }
+}",USA-South East,chandra.sambu@manabadi.siliconandhra.org
+New Tampa - Arbor Greene,TRUE,"17936, Timber View Street, Tampa, FL, 33647, United States","{
+  ""geo"": {
+    ""lat"": ""28.13471"",
+    ""long"": ""-82.322915999999964""
+  }
+}",USA-South East,"malini.tangirala@manabadi.siliconandhra.org,sireesha.katipalli@manabadi.siliconandhra.org"
+Winston-Salem,TRUE,"5202 Ivy Ridge Lane, Winston-Salem, North Carolina 27104, United States","{
+  ""geo"": {
+    ""lat"": ""36.0740664"",
+    ""long"": ""-80.358877300000017""
+  }
+}",USA-South East,srinivasa.chintalapati@manabadi.siliconandhra.org
+Norcross,TRUE,5511 Williams Rd. Norcross  Georgia  30093,"{
+  ""geo"": {
+    ""lat"": ""33.900502"",
+    ""long"": ""-84.173701999999992""
+  }
+}",USA-South East,"vijay.ravilla@manabadi.siliconandhra.org,somashekhar.chaganti@manabadi.siliconandhra.org,pradeepa.duddilla@manabadi.siliconandhra.org"
+Little Rock,TRUE,"1700, Napa Valley Drive, Little Rock, AR, 72212, United States","{
+  ""geo"": {
+    ""lat"": ""34.7696555"",
+    ""long"": ""-92.4121581""
+  }
+}",USA-South East,sudhir.mandali@manabadi.siliconandhra.org
+"Orlando, Fl (JCC)",TRUE,"5729 Rue Galilee Ln, Sanford, FL 32771, USA","{
+  ""geo"": {
+    ""lat"": ""28.8174269"",
+    ""long"": ""-81.36166089999999""
+  }
+}",USA-South East,praveenareddy.nawala@manabadi.siliconandhra.org
+Sanford - Lake Mary,TRUE,"5729 Rue Galilee Ln, Sanford, FL 32771, USA","{
+  ""geo"": {
+    ""lat"": ""28.8174269"",
+    ""long"": ""-81.3616609""
+  }
+}",USA-South East,praveenareddy.nawala@manabadi.siliconandhra.org
+Dunwoody,TRUE,"4276, Chamblee Dunwoody Road, Chamblee, GA, 30341, United States","{
+  ""geo"": {
+    ""lat"": ""33.9148131"",
+    ""long"": ""-84.315751400000011""
+  }
+}",USA-South East,"vijay.ravilla@manabadi.siliconandhra.org,lalitapadmini.challa@manabadi.siliconandhra.org,vijay.kundeti@manabadi.siliconandhra.org"
+Louisville,TRUE,"4213 Accomack Dr, Louisville, KY 40241, USA","{
+  ""geo"": {
+    ""lat"": ""38.3052016"",
+    ""long"": ""-85.5438322""
+  }
+}",USA-South East,prathyusha.jain@manabadi.siliconandhra.org
+Virginia Beach,TRUE,"5644 Magnolia Run Cir, Virginia Beach, VA 23464, United States","{
+  ""geo"": {
+    ""lat"": ""36.7724859"",
+    ""long"": ""-76.1830248""
+  }
+}","USA-South East,Virginia",sabarinath.kanuri@manabadi.siliconandhra.org
+Ashburn,TRUE,"23415 Evergreen Ridge Dr, Ashburn, VA 20148, USA","{
+  ""geo"": {
+    ""lat"": ""38.970202"",
+    ""long"": ""-77.512172999999962""
+  }
+}","USA-South East,Virginia",amrita.jamalamadaka@manabadi.siliconandhra.org
+Aldie - South Riding,TRUE,"26020, Ticonderoga Road, Chantilly, VA, 20152, United States","{
+  ""geo"": {
+    ""lat"": ""38.8966989"",
+    ""long"": ""-77.523023999999964""
+  }
+}","USA-South East,Virginia","annapurna.adapa@manabadi.siliconandhra.org,smitha.tumuluri@manabadi.siliconandhra.org"
+Austin,TRUE,,"{
+  ""geo"": null
+}",USA-South West,
+Austin-Round Rock,TRUE,"1401 Interstate 35 Frontage Road, Round Rock, TX 78664, United States","{
+  ""geo"": {
+    ""lat"": ""30.4962748"",
+    ""long"": ""-97.677543599999979""
+  }
+}",USA-South West,"sandeep.kasibhotla@manabadi.siliconandhra.org,satyanarayanar.gollavilli@manabadi.siliconandhra.org"
+"East Plano (Richardson, Murphy, Wylie, Allen)",TRUE,"2540, East Plano Parkway, Plano, TX, 75074, United States","{
+  ""geo"": {
+    ""lat"": ""33.005773799999993"",
+    ""long"": ""-96.681285099999968""
+  }
+}",USA-South West,"bhaskar.rayavaram@manabadi.siliconandhra.org,gayathri.siram@manabadi.siliconandhra.org,ramarao.paluri@manabadi.siliconandhra.org,gautam.kasturi@manabadi.siliconandhra.org,rajyalakshmi.jeedigunta@manabadi.siliconandhra.org"
+Austin-North (previously Cedar Park-Sai Temple),TRUE,"Austin, TX, United States","{
+  ""geo"": {
+    ""lat"": ""30.267153"",
+    ""long"": ""-97.743060799999967""
+  }
+}",USA-South West,"kishore.buddharaju@manabadi.siliconandhra.org,jyothsna.anand@manabadi.siliconandhra.org,deenababu.kondubhatla@manabadi.siliconandhra.org,satyanarayanar.gollavilli@manabadi.siliconandhra.org"
+Austin-Steiner Ranch,TRUE,"Steiner Ranch, Austin, TX, United States","{
+  ""geo"": {
+    ""lat"": ""30.3639152"",
+    ""long"": ""-97.899375599999985""
+  }
+}",USA-South West,"lavanya.reddy@manabadi.siliconandhra.org,satyanarayanar.gollavilli@manabadi.siliconandhra.org"
+Castle Hills - Lewisville,TRUE,"817 Winehart Street, Lewisville, TX 75056, United States","{
+  ""geo"": {
+    ""lat"": ""33.0632488"",
+    ""long"": ""-96.877840600000013""
+  }
+}",USA-South West,"sailakshmigirijaa.kalahasti@manabadi.siliconandhra.org,ramarao.paluri@manabadi.siliconandhra.org"
+Austin-Cedar Park,TRUE,"13010 West Parmer Lane, Cedar Park, TX, United States","{
+  ""geo"": {
+    ""lat"": ""30.5336382"",
+    ""long"": ""-97.781030900000019""
+  }
+}",USA-South West,"kishore.buddharaju@manabadi.siliconandhra.org,satyanarayanar.gollavilli@manabadi.siliconandhra.org"
+Houston - Clear Lake,TRUE,,"{
+  ""geo"": {
+    ""lat"": ""41.7481"",
+    ""long"": ""88.1656""
+  }
+}",USA-South West,
+Tulsa,TRUE,"1801 Victor Ave, Tulsa, OK 74114, USA","{
+  ""geo"": {
+    ""lat"": ""36.1237808"",
+    ""long"": ""-95.9648775""
+  }
+}",USA-South West,"ramana.munagala@manabadi.siliconandhra.org,divya.karri@manabadi.siliconandhra.org"
+Oklahoma City,TRUE,"7200 North Coltrane Road, Oklahoma City, OK 73121, United States","{
+  ""geo"": {
+    ""lat"": ""35.5445999"",
+    ""long"": ""-97.441734900000029""
+  }
+}",USA-South West,"aparna.kakani@manabadi.siliconandhra.org,ganabala.medisetti@manabadi.siliconandhra.org"
+Houston - Cypress,TRUE,"15306 Bartlett Landing Dr, Cypress, TX, United States","{
+  ""geo"": {
+    ""lat"": ""29.9979505"",
+    ""long"": ""-95.72285119999998""
+  }
+}",USA-South West,iragavarapu.tatikonda@manabadi.siliconandhra.org
+Austin (East - Austin Hindu Temple),TRUE,"9801 Decker Lake Road, Austin, TX, United States","{
+  ""geo"": {
+    ""lat"": ""30.2823416"",
+    ""long"": ""-97.618921699999987""
+  }
+}",USA-South West,"ganabala.medisetti@manabadi.siliconandhra.org,satyanarayanar.gollavilli@manabadi.siliconandhra.org"
+Austin (East - Austin Hindu Temple),TRUE,"9801 Decker Lake Road, Austin, TX, United States","{
+  ""geo"": {
+    ""lat"": ""30.2823416"",
+    ""long"": ""-97.618921699999987""
+  }
+}",USA-South West,
+West Frisco - Wisdom Montessori,TRUE,"25679 Smotherman Rd, Frisco, TX 75033","{
+  ""geo"": {
+    ""lat"": ""33.1636251"",
+    ""long"": ""-96.8889297""
+  }
+}","USA-South West,DFW","srineela.kandala@manabadi.siliconandhra.org,gowriprasanthi.paruchuri@manabadi.siliconandhra.org"
+Irving - Radha Govind Dham -Do not register for this location,TRUE,"8888 N MacArthur Blvd, Irving, TX 75063","{
+  ""geo"": {
+    ""lat"": ""32.9276065"",
+    ""long"": ""-96.95143680000001""
+  }
+}","USA-South West,DFW","swamy.chamarthy@manabadi.siliconandhra.org,ramarao.paluri@manabadi.siliconandhra.org,mahima.sonu@manabadi.siliconandhra.org"
+Irving Sunday - North Hills Prep School,TRUE,"606 East Royal Lane, Irving, TX 75039, United States","{
+  ""geo"": {
+    ""lat"": ""32.8945901"",
+    ""long"": ""-96.9323""
+  }
+}","USA-South West,DFW",sasi.goteti@manabadi.siliconandhra.org
+Phoenix (North),TRUE,"2323 West Parkside Lane, Phoenix, AZ 85027, United States","{
+  ""geo"": {
+    ""lat"": ""33.6952126"",
+    ""long"": ""-112.10982280000002""
+  }
+}","USA-South West,Phoenix - AZ",gayatri.pothula@manabadi.siliconandhra.org
+Houston - Hillcroft,TRUE,"5645 Hillcroft Ave, Houston, TX 77074, USA","{
+  ""geo"": {
+    ""lat"": ""29.721665299999991"",
+    ""long"": ""-95.500155899999982""
+  }
+}","USA-South West,Texas (South)","anupama.damara@manabadi.siliconandhra.org,veerabhadrarao.kambala@manabadi.siliconandhra.org"
+Houston - Katy,TRUE,"21915 Royal Montreal Dr, Katy, TX 77450, USA","{
+  ""geo"": {
+    ""lat"": ""29.7484577"",
+    ""long"": ""-95.752899299999967""
+  }
+}","USA-South West,Texas (South)","veerabhadrarao.kambala@manabadi.siliconandhra.org,chandana.kakarla@manabadi.siliconandhra.org"
+Houston - The Woodlands (Hindu Temple),TRUE,"10010 Branch Crossing Drive, The Woodlands, TX 77382, United States","{
+  ""geo"": {
+    ""lat"": ""30.1846541"",
+    ""long"": ""-95.566306300000008""
+  }
+}","USA-South West,Texas (South)","swathi.vadlamani@manabadi.siliconandhra.org,veerabhadrarao.kambala@manabadi.siliconandhra.org,balaji.musaboyina@manabadi.siliconandhra.org"
+Midland - Odessa,TRUE,"7803 Giavanna Dr, Odessa, TX 79765, USA","{
+  ""geo"": {
+    ""lat"": ""31.903713200000009"",
+    ""long"": ""-102.2860458""
+  }
+}","USA-South West,Texas (South)","praveena.alahari@manabadi.siliconandhra.org,veerabhadrarao.kambala@manabadi.siliconandhra.org"
+Morganville - Matawan,TRUE,"401 Lloyd Road, Matawan, NJ 07747, United States","{
+  ""geo"": {
+    ""lat"": ""40.404029"",
+    ""long"": ""-74.220333900000014""
+  }
+}","New Jersey (North),USA-North East","rajeev.gabbita@manabadi.siliconandhra.org,rama.gabbita@manabadi.siliconandhra.org"
+Edison (Woodrow Wilson Middle School),TRUE,"50 Woodrow Wilson Drive, Edison, NJ 08820, United States","{
+  ""geo"": {
+    ""lat"": ""40.554578699999993"",
+    ""long"": ""-74.3758211""
+  }
+}","New Jersey (North),USA-North East",aparna.siddabattuni@manabadi.siliconandhra.org
+Parsippany - Brooklawn Middle School,TRUE,"250 Beachwood Rd, Parsippany, NJ 07054, USA","{
+  ""geo"": {
+    ""lat"": ""40.8577433"",
+    ""long"": ""-74.44991570000002""
+  }
+}","New Jersey (North),USA-North East",kalyan.bondalakunta@manabadi.siliconandhra.org
+Bridgewater - Hillsborough,TRUE,"17 Nostrand Rd, Hillsborough Township, NJ 08844, USA","{
+  ""geo"": {
+    ""lat"": ""40.546706799999988"",
+    ""long"": ""-74.6027019""
+  }
+}","New Jersey (South),USA-North East",anu.addepally@manabadi.siliconandhra.org
+Bordentown - Chesterfield  (Chesterfield Elementary School),TRUE,"30 Saddle Way, Chesterfield, NJ 08515, USA","{
+  ""geo"": {
+    ""lat"": ""40.137561200000007"",
+    ""long"": ""-74.6571452""
+  }
+}","New Jersey (South),USA-North East",kanyakumari.peruri@manabadi.siliconandhra.org
+Monroe - Dayton,TRUE,"359 Ridge Rd, Dayton, NJ 08810, USA","{
+  ""geo"": {
+    ""lat"": ""40.373157100000007"",
+    ""long"": ""-74.5058027""
+  }
+}","New Jersey (South),USA-North East","gangadhar.grandhi@manabadi.siliconandhra.org,srinivasu.vakada@manabadi.siliconandhra.org"
+Princeton - Plainsboro - Robbinsville,TRUE,"10 Southfield Road, West Windsor Township, NJ 08550, United States","{
+  ""geo"": {
+    ""lat"": ""40.272158999999988"",
+    ""long"": ""-74.595965999999976""
+  }
+}","New Jersey (South),USA-North East",ratna.veta@manabadi.siliconandhra.org

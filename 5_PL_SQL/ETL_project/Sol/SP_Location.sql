@@ -1,3 +1,5 @@
+set serveroutput on;
+
 CREATE OR REPLACE
 PROCEDURE sp_location(
     p_ETL_user_id IN VARCHAR2)
@@ -13,6 +15,7 @@ IS
 BEGIN
   FOR rec IN cur_src_center
   LOOP
+   begin 
     v_name             :=rec.name;
     IF rec.active_status='TRUE' THEN
       v_is_active      :=1;
@@ -43,8 +46,19 @@ BEGIN
         p_ETL_user_id
       );
     COMMIT;
+        dbms_output.put_line('INSERTed :  ' || v_region_id ||' --- ' || v_address_id);
+	 
+	  EXCEPTION
+      WHEN NO_DATA_FOUND THEN
+        dbms_output.put_line('No data found :  ' || v_region_id ||' --- ' || v_address_id);
+      END;
+	  
   END LOOP;
  
   
-END ;
+END sp_location ;
 /
+
+begin 
+sp_location('nsp:12c');
+end ;

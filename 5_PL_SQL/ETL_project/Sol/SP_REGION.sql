@@ -1,3 +1,4 @@
+set serveroutput on;
 CREATE OR REPLACE
 PROCEDURE SP_REGION(
     P_ETL_USER_ID IN VARCHAR2)
@@ -11,6 +12,7 @@ IS
 BEGIN
   FOR REC IN CUR_REGION
   LOOP
+   begin 
     V_REGION_ID  :=SYS_GUID();
     V_NAME       :=REC.REGION_NAME;
     V_DESCRIPTION:=REC.REGION_NAME;
@@ -32,6 +34,11 @@ BEGIN
         P_ETL_USER_ID
       );
       commit;
+	  dbms_output.put_line('inserted : ' || V_REGION_ID);
+	  EXCEPTION
+      WHEN NO_DATA_FOUND THEN
+        dbms_output.put_line('No data found : ' || V_REGION_ID);
+      END;
   END LOOP;
 END SP_REGION;
 /

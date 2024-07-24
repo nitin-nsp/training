@@ -96,8 +96,8 @@ CREATE TABLE tar_course
   (
     ID          VARCHAR2(36) DEFAULT SYS_GUID() PRIMARY KEY,
     name        VARCHAR2(100) UNIQUE,
-    base_course NUMBER(1,0) DEFAULT 1,
-    is_active   NUMBER(1,0) ,
+    base_course  varchar2(10) DEFAULT 'TRUE',
+    is_active  varchar2(10) DEFAULT 'TRUE',
     CREATED_BY  VARCHAR2(36) NOT NULL,
     UPDATED_BY  VARCHAR2(36) NOT NULL,
     DELETED_BY  VARCHAR2(36) DEFAULT NULL

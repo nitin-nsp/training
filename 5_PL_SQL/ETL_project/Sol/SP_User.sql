@@ -1,8 +1,9 @@
+SET serveroutput ON;
 CREATE OR REPLACE
 PROCEDURE SP_POPULATE_USER(
     P_ETL_USER_ID IN VARCHAR2)
 IS
-  V_USER_ID         VARCHAR2(36);
+--  V_USER_ID         VARCHAR2(36);
   V_FIRST_NAME      VARCHAR2(50);
   V_LAST_NAME       VARCHAR2(50);
   V_MIDDLE_NAME     VARCHAR2(50);
@@ -12,13 +13,14 @@ IS
   V_MANABADI_EMAIL  VARCHAR2(200);
   V_PERONSAL_EMAIL  VARCHAR2(200);
   V_TMP_SRC_ADDRESS VARCHAR2(250);
-  V_ADDRESS_ID      VARCHAR2(50):='not_found';
+  V_ADDRESS_ID      VARCHAR2(50);
   CURSOR CUR_SRC_USER
   IS
     SELECT * FROM SRC_USER;
 BEGIN
   FOR REC IN CUR_SRC_USER
   LOOP
+     begin
 --    V_USER_ID        :=SYS_GUID();
     V_FIRST_NAME     :=REC.FIRST_NAME;
     V_LAST_NAME      :=REC.LAST_NAME;
@@ -29,7 +31,7 @@ BEGIN
     V_TMP_SRC_ADDRESS:=REC.ADDRESS;
     
     SELECT id INTO V_ADDRESS_ID FROM tar_address WHERE address=V_TMP_SRC_ADDRESS;
-    dbms_output.put_line('error-> : '||V_ADDRESS_ID);
+   -- dbms_output.put_line('error-> : '||V_ADDRESS_ID);
     INSERT
     INTO TAR_USER
       ( FIRST_NAME,
@@ -58,7 +60,13 @@ BEGIN
         P_ETL_USER_ID,
         P_ETL_USER_ID
       );
-      commit;
+       dbms_output.put_line('instered : ' ||   V_ADDRESS_ID );
+      --commit;
+	    EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+    
+      dbms_output.put_line('No data found for region_name: ' ||  V_ADDRESS_ID);
+    END;
   END LOOP;
 END SP_POPULATE_USER;
 /

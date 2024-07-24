@@ -1,5 +1,4 @@
-set serveroutput on;
-
+SET serveroutput ON;
 CREATE OR REPLACE
 PROCEDURE SP_POPULATE_ADDRESS(
     P_ETL_USER_ID IN VARCHAR2)
@@ -12,17 +11,19 @@ IS
   V_ZIPCODE    VARCHAR2(20)  := '10001';
   CURSOR CUR_SRC_ADDRESS
   IS
-   ( SELECT ADDRESS FROM SRC_USER
+    ( SELECT ADDRESS FROM SRC_USER
   UNION
   SELECT ADDRESS FROM SRC_CENTER
   UNION
-  SELECT ACADEMIC_SCHOOL FROM src_courseenrollment);
-BEGIN
-  FOR REC IN CUR_SRC_ADDRESS
-  LOOP
-    V_ADDRESS   :=REC.address;
-    v_ADDRESS_id:=sys_guid();
-      INSERT
+  SELECT ACADEMIC_SCHOOL FROM src_courseenrollment
+    );
+  BEGIN
+    FOR REC IN CUR_SRC_ADDRESS
+    LOOP
+      BEGIN
+        V_ADDRESS   :=REC.address;
+        v_ADDRESS_id:=sys_guid();
+        INSERT
         INTO tar_address
           (
             ID,
@@ -45,12 +46,17 @@ BEGIN
             P_ETL_USER_ID,
             P_ETL_USER_ID
           );
-          COMMIT;
-    DBMS_OUTPUT.PUT_LINE('VALUE: ' || V_ADDRESS);
-  END LOOP;
-END SP_POPULATE_ADDRESS;
-/
-
---begin
---SP_POPULATE_ADDRESS('nsp:12c');
---end;
+        COMMIT;
+        DBMS_OUTPUT.PUT_LINE('VALUE: ' || V_ADDRESS);
+      EXCEPTION
+      WHEN NO_DATA_FOUND THEN
+        dbms_output.put_line('No data found for region_name: ' || V_ADDRESS);
+      END;
+    END LOOP;
+  END SP_POPULATE_ADDRESS;
+  /
+  
+  
+  begin
+  SP_POPULATE_ADDRESS('nsp:12c');
+  end;

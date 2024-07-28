@@ -13,14 +13,14 @@ IS
   V_MANABADI_EMAIL  VARCHAR2(200);
   V_PERONSAL_EMAIL  VARCHAR2(200);
   V_TMP_SRC_ADDRESS VARCHAR2(250);
-  V_ADDRESS_ID      VARCHAR2(50);
+  V_ADDRESS_ID      VARCHAR2(50) NULL;
   CURSOR CUR_SRC_USER
   IS
     SELECT * FROM SRC_USER;
 BEGIN
   FOR REC IN CUR_SRC_USER
   LOOP
-     begin
+    
 --    V_USER_ID        :=SYS_GUID();
     V_FIRST_NAME     :=REC.FIRST_NAME;
     V_LAST_NAME      :=REC.LAST_NAME;
@@ -30,7 +30,9 @@ BEGIN
     V_PERONSAL_EMAIL :=REC.EMAIL;
     V_TMP_SRC_ADDRESS:=REC.ADDRESS;
     
+	begin
     SELECT id INTO V_ADDRESS_ID FROM tar_address WHERE address=V_TMP_SRC_ADDRESS;
+	end;
    -- dbms_output.put_line('error-> : '||V_ADDRESS_ID);
     INSERT
     INTO TAR_USER
@@ -66,7 +68,7 @@ BEGIN
     WHEN NO_DATA_FOUND THEN
     
       dbms_output.put_line('No data found for region_name: ' ||  V_ADDRESS_ID);
-    END;
+   
   END LOOP;
 END SP_POPULATE_USER;
 /

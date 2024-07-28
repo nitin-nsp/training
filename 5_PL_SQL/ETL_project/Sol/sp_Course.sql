@@ -41,6 +41,7 @@ BEGIN
   END LOOP;
 END sp_course;
 /
+
 BEGIN
   sp_course('nsp:12c');
 END;

@@ -1,0 +1,16 @@
+{% extends "base_auth.html" %} {% block content %}
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-10">
+    {% include 'partials/_messages.html' %}
+      <h2>You have been logged out</h2>
+      <div class="border-top pt-3">
+        <small class="text-muted">
+          <a href="{% url 'login' %}">Log In Again</a>
+          {% comment %} <a href="{% url 'home' %}">Go to Home</a> {% endcomment %}
+        </small>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock content %}

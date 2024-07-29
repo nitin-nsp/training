@@ -1,26 +1,26 @@
+import json
 from django.shortcuts import render, redirect
 from django.views import View
-import json
 from django.http import JsonResponse
 from django.contrib.auth.models import User
 
 
-
-# from validate_email import validate_email
 from django.contrib import messages
 from django.core.mail import EmailMessage
 from django.contrib.sites.shortcuts import get_current_site
-from django.utils.encoding import force_bytes, force_str, DjangoUnicodeDecodeError
-# from django.core.mail import send_mail
+from django.utils.encoding import force_bytes, force_str
+
+from validate_email import validate_email
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.http import urlsafe_base64_decode, urlsafe_base64_encode
-# from django.template.loader import render_to_string
-from .utils import account_activation_token
+
+
 from django.urls import reverse
 from django.contrib import auth
 from django.utils.encoding import force_str
 
-# Create your views here.
+from .utils import account_activation_token
+
 
 
 class EmailValidationView(View):
@@ -42,7 +42,7 @@ class UsernameValidationView(View):
             return JsonResponse({'username_error': 'username should only contain alphanumeric characters'}, status=400)
         if User.objects.filter(username=username).exists():
             return JsonResponse({'username_error': 'sorry username in use,choose another one '}, status=409)
-        return JsonResponse({'username_valid': True})
+        return JsonResponse({'username_valid': True,'user_name':username})
 
 
 class RegistrationView(View):
@@ -50,10 +50,7 @@ class RegistrationView(View):
         return render(request, 'authentication/register.html')
 
     def post(self, request):
-        # GET USER DATA
-        # VALIDATE
-        # create a user account
-
+       
         username = request.POST['username']
         email = request.POST['email']
         password = request.POST['password']
@@ -82,22 +79,23 @@ class RegistrationView(View):
 
                 link = reverse('activate', kwargs={
                                'uidb64': email_body['uid'], 'token': email_body['token']})
-                print('link => ', link)
+                
 
                 email_subject = 'Activate your account'
 
                 activate_url = 'http://'+current_site.domain+link
-                print('actiate_url ]> ',activate_url)
+                print('actiate_url => ',activate_url)
 
                 email = EmailMessage(
                     email_subject,
                     'Hi '+user.username + ', Please the link below to activate your account \n'+activate_url,
-                    'noreply@semycolon.com',
+                    'noreply@gmail.com',
                     [email],
                 )
                 email.send(fail_silently=False)
                 messages.success(request, 'Account successfully created')
-                return render(request, 'authentication/register.html')
+                messages.info(request,'Verify your Email and Then login')
+                return render(request, 'authentication/login.html')
 
         return render(request, 'authentication/register.html')
 
@@ -141,7 +139,7 @@ class LoginView(View):
                     auth.login(request, user)
                     messages.success(request, 'Welcome, ' +
                                      user.username+' you are now logged in')
-                    return redirect('expenses')
+                    return redirect('/')
                 messages.error(
                     request, 'Account is not active,please check your email')
                 return render(request, 'authentication/login.html')
@@ -155,7 +153,12 @@ class LoginView(View):
 
 
 class LogoutView(View):
-    def post(self, request):
+    def get(self,request):
         auth.logout(request)
         messages.success(request, 'You have been logged out')
-        return redirect('login')
+        return render(request,'authentication/logout.html')
+    
+    # def post(self, request):
+    #     auth.logout(request)
+    #     messages.success(request, 'You have been logged out')
+    #     return redirect('login')

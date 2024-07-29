@@ -12,12 +12,12 @@
 # starting new project 
 >> django-admin startproject <project name>
 
+# adding new dir
+>> python manage.py startapp <name of new dir>
 
 #start the run server 
 >> python manage.py runserver
 
-# adding new dir
->> python manage.py startapp <name of new dir>
 
 # creating admin 
 error: no such table

@@ -16,8 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from user_profile import views as user_profile_view
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
+    path('', include('posts.urls'),name='home'),
+    path('profile/',user_profile_view.profile,name='profile'),
     path('authentication/', include('authentication.urls')),
     path('admin/', admin.site.urls)
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -17,7 +17,7 @@
 *.env
 
 # Ignore macOS specific files
-.DS_Store
+*/.DS_Store
 
 # Ignore IDE and editor-specific directories
 .vscode/

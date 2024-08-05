@@ -20,7 +20,7 @@ IS
 BEGIN
   FOR REC IN CUR_SRC_USER
   LOOP
-    
+    begin
 --    V_USER_ID        :=SYS_GUID();
     V_FIRST_NAME     :=REC.FIRST_NAME;
     V_LAST_NAME      :=REC.LAST_NAME;
@@ -65,12 +65,15 @@ BEGIN
        dbms_output.put_line('instered : ' ||   V_ADDRESS_ID );
       --commit;
 	    EXCEPTION
-    WHEN NO_DATA_FOUND THEN
-    
-      dbms_output.put_line('No data found for region_name: ' ||  V_ADDRESS_ID);
-   
+         WHEN NO_DATA_FOUND THEN
+           dbms_output.put_line('No data found for region_name: ' ||  V_ADDRESS_ID);
+    end;
   END LOOP;
+  
+  
+  
 END SP_POPULATE_USER;
+
 /
 
 begin 

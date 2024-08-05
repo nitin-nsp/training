@@ -1,8 +1,38 @@
 --1. Create a PL/SQL program that declares a nested table of integers, populates it with values (e.g., 10, 20, 30), and then displays the elements of the nested table.
---
+ declare 
+ type Int_table is table of Integer;
+ v_number Int_table;
+ 
+ begin 
+ v_number:=Int_table();
+ v_number.EXTEND(3);
+ v_numbers(1) := 10;
+  v_numbers(2) := 20;
+  v_numbers(3) := 30;
+  
+  FOR i IN 1 .. v_numbers.COUNT LOOP
+    dbms_output.put_line('number ' || i || ': ' || v_numbers(i));
+  END LOOP;
+ end;
 --2. Create a PL/SQL program that declares a varray of characters with a fixed size of 5. 
 --Implement a loop to take input from the user for all five elements of the varray and then display the contents of the varray.
---
+
+declare 
+type charVArray is varray(5) of varchar2(1);
+v_chars charVArray;
+v_in char(1);
+begin 
+v_chars:=charVArray();
+
+for i in 1.. v_chars.limit loop
+
+v_in:=chr(64+i);
+v_chars(i):=v_in;
+ dbms_output.put(' at pos  ' || i || ': '|| v_chars(i));
+
+end loop;
+end;
+
 --3. Create a PL/SQL program that declares an associative array (index-by table) of student names and their respective scores in a test. 
 --Populate the array with at least five records and then display the student names along with their scores.
 set serverout on ;
@@ -81,9 +111,60 @@ END;
 
 --4. Write a PL/SQL program that uses an associative array of question 3. Calculate the average of all the values of the scores in the array.
 
+
 --5. Create a PL/SQL program that declares a nested table of timestamps. 
 --Implement a loop to populate the collection with timestamps representing different dates and times, 
 --AND THEN DISPLAY THE TIMESTAMPS IN CHRONOLOGICAL ORDER.
+DECLARE
+ 
+  TYPE TimestampTable IS TABLE OF TIMESTAMP;
+
+ 
+  v_timestamps TimestampTable;
+
+BEGIN
+  
+  v_timestamps := TimestampTable();
+
+ 
+  v_timestamps.EXTEND(5);
+  v_timestamps(1) := TIMESTAMP '2024-07-30 10:30:00';
+  v_timestamps(2) := TIMESTAMP '2024-07-29 08:15:00';
+  v_timestamps(3) := TIMESTAMP '2024-07-31 12:45:00';
+  v_timestamps(4) := TIMESTAMP '2024-07-30 09:00:00';
+  v_timestamps(5) := TIMESTAMP '2024-07-30 14:20:00';
+
+  
+  CREATE GLOBAL TEMPORARY TABLE temp_timestamps (
+    ts TIMESTAMP
+  ) ON COMMIT DELETE ROWS;
+
+ 
+  FOR i IN 1 .. v_timestamps.COUNT LOOP
+    INSERT INTO temp_timestamps (ts) VALUES (v_timestamps(i));
+  END LOOP;
+
+  
+  FOR rec IN (SELECT ts FROM temp_timestamps ORDER BY ts) LOOP
+    dbms_output.put_line('Timestamp: ' || rec.ts);
+  END LOOP;
+
+ 
+  EXECUTE IMMEDIATE 'DROP TABLE temp_timestamps';
+
+EXCEPTION
+  WHEN OTHERS THEN
+    dbms_output.put_line('Error: ' || SQLERRM);
+   
+    BEGIN
+      EXECUTE IMMEDIATE 'DROP TABLE temp_timestamps';
+    EXCEPTION
+      WHEN OTHERS THEN
+        NULL; 
+    END;
+END;
+/
+
 --
 --
 --
